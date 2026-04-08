@@ -1,0 +1,3115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0da1c3a4cb8f65fb7f18cc3089e7645b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0da1c3a4cb8f65fb7f18cc3089e7645b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0da1c3a4cb8f65fb7f18cc3089e7645b = L.map(
+                "map_0da1c3a4cb8f65fb7f18cc3089e7645b",
+                {
+                    center: [41.1, 29.05],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_67dd7078dadc97e6ee19a163ca971f3a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_67dd7078dadc97e6ee19a163ca971f3a.addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var marker_fb19db19b1ec8c8285f8c1cc48d8c1ac = L.marker(
+                [41.047, 29.034],
+                {
+}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var icon_330cf53f27299f2c35765e053c17191d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ca7d3ec26a05046066becf09a357e418 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d939293fe1e86915a6b6f64dea2eccfe = $(`<div id="html_d939293fe1e86915a6b6f64dea2eccfe" style="width: 100.0%; height: 100.0%;">15 July Martyrs<br>Avg Speed: 33.3 km/h</div>`)[0];
+                popup_ca7d3ec26a05046066becf09a357e418.setContent(html_d939293fe1e86915a6b6f64dea2eccfe);
+            
+        
+
+        marker_fb19db19b1ec8c8285f8c1cc48d8c1ac.bindPopup(popup_ca7d3ec26a05046066becf09a357e418)
+        ;
+
+        
+    
+    
+                marker_fb19db19b1ec8c8285f8c1cc48d8c1ac.setIcon(icon_330cf53f27299f2c35765e053c17191d);
+            
+    
+            var marker_fe739b8f9cdd31c43279e3ec8f5ec69b = L.marker(
+                [41.09, 29.056],
+                {
+}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var icon_468efc9267d5725808ba1df8beef7998 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bffeb10389ce6f0533191456ede8787f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d737b7566325d8418f63a9dd8ff17967 = $(`<div id="html_d737b7566325d8418f63a9dd8ff17967" style="width: 100.0%; height: 100.0%;">FSM<br>Avg Speed: 36.5 km/h</div>`)[0];
+                popup_bffeb10389ce6f0533191456ede8787f.setContent(html_d737b7566325d8418f63a9dd8ff17967);
+            
+        
+
+        marker_fe739b8f9cdd31c43279e3ec8f5ec69b.bindPopup(popup_bffeb10389ce6f0533191456ede8787f)
+        ;
+
+        
+    
+    
+                marker_fe739b8f9cdd31c43279e3ec8f5ec69b.setIcon(icon_468efc9267d5725808ba1df8beef7998);
+            
+    
+            var marker_922964da6856520522bb6e79a374720f = L.marker(
+                [41.205, 29.11],
+                {
+}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var icon_6def545d07bb714999340881b8d390d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05fc869388f83c99fb85fddedc40b510 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ce417f2537b3af23b2952bce877fe28 = $(`<div id="html_8ce417f2537b3af23b2952bce877fe28" style="width: 100.0%; height: 100.0%;">Yavuz Sultan Selim<br>Avg Speed: 96.3 km/h</div>`)[0];
+                popup_05fc869388f83c99fb85fddedc40b510.setContent(html_8ce417f2537b3af23b2952bce877fe28);
+            
+        
+
+        marker_922964da6856520522bb6e79a374720f.bindPopup(popup_05fc869388f83c99fb85fddedc40b510)
+        ;
+
+        
+    
+    
+                marker_922964da6856520522bb6e79a374720f.setIcon(icon_6def545d07bb714999340881b8d390d1);
+            
+    
+            var circle_marker_0860a6eed8a1b5ce3ea55bbb719e3940 = L.circleMarker(
+                [41.0202026367188, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_b8db2cc7f4b6293f8fdbe459ff659b4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5379dcce0114b2525d0c0aa2337ffa5a = $(`<div id="html_5379dcce0114b2525d0c0aa2337ffa5a" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0202, 29.0314)<br>Avg Speed: 27.5 km/h<br>Avg Vehicles/hr: 89</div>`)[0];
+                popup_b8db2cc7f4b6293f8fdbe459ff659b4e.setContent(html_5379dcce0114b2525d0c0aa2337ffa5a);
+            
+        
+
+        circle_marker_0860a6eed8a1b5ce3ea55bbb719e3940.bindPopup(popup_b8db2cc7f4b6293f8fdbe459ff659b4e)
+        ;
+
+        
+    
+    
+            var poly_line_803676e2363aab130fd88528dbdcb19c = L.polyline(
+                [[41.0202026367188, 29.0313720703125], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_fe6ce3140c66db7d5d002ec9b90dcfb7 = L.circleMarker(
+                [41.0256958007813, 29.0203857421875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_82225b6494147a59b8ca949aeb018eb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0873c36353e12ffe88243bc1a093842f = $(`<div id="html_0873c36353e12ffe88243bc1a093842f" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0257, 29.0204)<br>Avg Speed: 20.0 km/h<br>Avg Vehicles/hr: 51</div>`)[0];
+                popup_82225b6494147a59b8ca949aeb018eb0.setContent(html_0873c36353e12ffe88243bc1a093842f);
+            
+        
+
+        circle_marker_fe6ce3140c66db7d5d002ec9b90dcfb7.bindPopup(popup_82225b6494147a59b8ca949aeb018eb0)
+        ;
+
+        
+    
+    
+            var poly_line_8d31429243318d9f55eef3f57c58aa0b = L.polyline(
+                [[41.0256958007813, 29.0203857421875], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_d0d38f6485d2a16833e3bd1f87fd50fd = L.circleMarker(
+                [41.0256958007813, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_88951503864333b34341a12d975f2b29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47ef44fac144279b047bcf5c4a5f37f9 = $(`<div id="html_47ef44fac144279b047bcf5c4a5f37f9" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0257, 29.0314)<br>Avg Speed: 23.7 km/h<br>Avg Vehicles/hr: 79</div>`)[0];
+                popup_88951503864333b34341a12d975f2b29.setContent(html_47ef44fac144279b047bcf5c4a5f37f9);
+            
+        
+
+        circle_marker_d0d38f6485d2a16833e3bd1f87fd50fd.bindPopup(popup_88951503864333b34341a12d975f2b29)
+        ;
+
+        
+    
+    
+            var poly_line_d3e0ae1be699de6ae77d9e30564b897e = L.polyline(
+                [[41.0256958007813, 29.0313720703125], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_e5ccea6af601aba1890d8d16fa9adfb5 = L.circleMarker(
+                [41.0256958007813, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_7e92f445ddca647bcbc3a3b4533f472e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc3f5230177aee2263b875d748d87344 = $(`<div id="html_fc3f5230177aee2263b875d748d87344" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0257, 29.0424)<br>Avg Speed: 37.2 km/h<br>Avg Vehicles/hr: 341</div>`)[0];
+                popup_7e92f445ddca647bcbc3a3b4533f472e.setContent(html_fc3f5230177aee2263b875d748d87344);
+            
+        
+
+        circle_marker_e5ccea6af601aba1890d8d16fa9adfb5.bindPopup(popup_7e92f445ddca647bcbc3a3b4533f472e)
+        ;
+
+        
+    
+    
+            var poly_line_5c93071a29b693140111112149e002a4 = L.polyline(
+                [[41.0256958007813, 29.0423583984375], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_069494497594c9431e7347029643355f = L.circleMarker(
+                [41.0256958007813, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_35362dd88719b3e7ee99ad6a7567d8bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21307acfe10f28c9e7f04fc728c155b1 = $(`<div id="html_21307acfe10f28c9e7f04fc728c155b1" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0257, 29.0533)<br>Avg Speed: 39.2 km/h<br>Avg Vehicles/hr: 163</div>`)[0];
+                popup_35362dd88719b3e7ee99ad6a7567d8bc.setContent(html_21307acfe10f28c9e7f04fc728c155b1);
+            
+        
+
+        circle_marker_069494497594c9431e7347029643355f.bindPopup(popup_35362dd88719b3e7ee99ad6a7567d8bc)
+        ;
+
+        
+    
+    
+            var poly_line_06716eef702c0d4abdbc049008835ea2 = L.polyline(
+                [[41.0256958007813, 29.0533447265625], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_777f3b95f06ff455c77898ec76a32479 = L.circleMarker(
+                [41.0311889648438, 29.0203857421875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_7bdf1bf7d4144428de30dcf592dc6a1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61bb504545136d6911e4bd77b28cf1e8 = $(`<div id="html_61bb504545136d6911e4bd77b28cf1e8" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0312, 29.0204)<br>Avg Speed: 30.2 km/h<br>Avg Vehicles/hr: 16</div>`)[0];
+                popup_7bdf1bf7d4144428de30dcf592dc6a1f.setContent(html_61bb504545136d6911e4bd77b28cf1e8);
+            
+        
+
+        circle_marker_777f3b95f06ff455c77898ec76a32479.bindPopup(popup_7bdf1bf7d4144428de30dcf592dc6a1f)
+        ;
+
+        
+    
+    
+            var poly_line_40f59544980901e31b036d7e190175a5 = L.polyline(
+                [[41.0311889648438, 29.0203857421875], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_8ab387d23f28af553621400fd32b7deb = L.circleMarker(
+                [41.0311889648438, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_c409fad4816311590f8827c43756ad2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35415a459aaa468bfaccf3b30cd48dba = $(`<div id="html_35415a459aaa468bfaccf3b30cd48dba" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0312, 29.0314)<br>Avg Speed: 23.0 km/h<br>Avg Vehicles/hr: 16</div>`)[0];
+                popup_c409fad4816311590f8827c43756ad2d.setContent(html_35415a459aaa468bfaccf3b30cd48dba);
+            
+        
+
+        circle_marker_8ab387d23f28af553621400fd32b7deb.bindPopup(popup_c409fad4816311590f8827c43756ad2d)
+        ;
+
+        
+    
+    
+            var poly_line_05db5fdd95606fae15555a73c724e04a = L.polyline(
+                [[41.0311889648438, 29.0313720703125], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_21075f0d933fc5c75595592d7af719b5 = L.circleMarker(
+                [41.0311889648438, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_905d1743a112cfee05e411097eb4f2f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7082ccb151fe9e57252af09ef50545da = $(`<div id="html_7082ccb151fe9e57252af09ef50545da" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0312, 29.0424)<br>Avg Speed: 48.5 km/h<br>Avg Vehicles/hr: 233</div>`)[0];
+                popup_905d1743a112cfee05e411097eb4f2f3.setContent(html_7082ccb151fe9e57252af09ef50545da);
+            
+        
+
+        circle_marker_21075f0d933fc5c75595592d7af719b5.bindPopup(popup_905d1743a112cfee05e411097eb4f2f3)
+        ;
+
+        
+    
+    
+            var poly_line_24cb71b01c12ed8cb1ccbc74620b80c2 = L.polyline(
+                [[41.0311889648438, 29.0423583984375], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_65ec6ecc038033602f3502b91e9532cf = L.circleMarker(
+                [41.0311889648438, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_46a6bd240cd717fab74c84fbb10d2c7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e320ad989e4663861a35104c727a1e4 = $(`<div id="html_4e320ad989e4663861a35104c727a1e4" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0312, 29.0533)<br>Avg Speed: 23.8 km/h<br>Avg Vehicles/hr: 33</div>`)[0];
+                popup_46a6bd240cd717fab74c84fbb10d2c7f.setContent(html_4e320ad989e4663861a35104c727a1e4);
+            
+        
+
+        circle_marker_65ec6ecc038033602f3502b91e9532cf.bindPopup(popup_46a6bd240cd717fab74c84fbb10d2c7f)
+        ;
+
+        
+    
+    
+            var poly_line_e51b754ee46fc41f24461d04741dc86b = L.polyline(
+                [[41.0311889648438, 29.0533447265625], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_ea19345542f81ee4c21c89596891403e = L.circleMarker(
+                [41.0366821289063, 29.0203857421875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_85cc7db74a1abcae105a6e3d011d7fa1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e447b87c276e91b4f06bea6bcd00ccfc = $(`<div id="html_e447b87c276e91b4f06bea6bcd00ccfc" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0367, 29.0204)<br>Avg Speed: 33.1 km/h<br>Avg Vehicles/hr: 1</div>`)[0];
+                popup_85cc7db74a1abcae105a6e3d011d7fa1.setContent(html_e447b87c276e91b4f06bea6bcd00ccfc);
+            
+        
+
+        circle_marker_ea19345542f81ee4c21c89596891403e.bindPopup(popup_85cc7db74a1abcae105a6e3d011d7fa1)
+        ;
+
+        
+    
+    
+            var poly_line_eb903f99b307c182a89b717a44be3ef0 = L.polyline(
+                [[41.0366821289063, 29.0203857421875], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_4117e71b69a27abe24720ad969c64d62 = L.circleMarker(
+                [41.0366821289063, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_19575dee25cb2989bd45ab5cc4486c7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31dfb34acd15e8925c87545a4395f9f5 = $(`<div id="html_31dfb34acd15e8925c87545a4395f9f5" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0367, 29.0314)<br>Avg Speed: 28.3 km/h<br>Avg Vehicles/hr: 21</div>`)[0];
+                popup_19575dee25cb2989bd45ab5cc4486c7e.setContent(html_31dfb34acd15e8925c87545a4395f9f5);
+            
+        
+
+        circle_marker_4117e71b69a27abe24720ad969c64d62.bindPopup(popup_19575dee25cb2989bd45ab5cc4486c7e)
+        ;
+
+        
+    
+    
+            var poly_line_7726924634a5bce70dc8e8932c158105 = L.polyline(
+                [[41.0366821289063, 29.0313720703125], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_f594ba0ad3a4fc48a0442bbce8a07896 = L.circleMarker(
+                [41.0366821289063, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_9ebe1a0ec0170a075e500b6690e4b91a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27e7da1089a189c7f6420f46a9fce87d = $(`<div id="html_27e7da1089a189c7f6420f46a9fce87d" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0367, 29.0424)<br>Avg Speed: 48.4 km/h<br>Avg Vehicles/hr: 248</div>`)[0];
+                popup_9ebe1a0ec0170a075e500b6690e4b91a.setContent(html_27e7da1089a189c7f6420f46a9fce87d);
+            
+        
+
+        circle_marker_f594ba0ad3a4fc48a0442bbce8a07896.bindPopup(popup_9ebe1a0ec0170a075e500b6690e4b91a)
+        ;
+
+        
+    
+    
+            var poly_line_241861a992e0f9f2024fa8fce15a4a59 = L.polyline(
+                [[41.0366821289063, 29.0423583984375], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_e7afa3288db7e91724fd0be580743abd = L.circleMarker(
+                [41.0366821289063, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_1898875624be6b03c612c6f19ed3fe82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2976ef538e16cc08279205d44a14c6b = $(`<div id="html_f2976ef538e16cc08279205d44a14c6b" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0367, 29.0533)<br>Avg Speed: 25.5 km/h<br>Avg Vehicles/hr: 41</div>`)[0];
+                popup_1898875624be6b03c612c6f19ed3fe82.setContent(html_f2976ef538e16cc08279205d44a14c6b);
+            
+        
+
+        circle_marker_e7afa3288db7e91724fd0be580743abd.bindPopup(popup_1898875624be6b03c612c6f19ed3fe82)
+        ;
+
+        
+    
+    
+            var poly_line_a59a91f3f7c210e43b911a797b3a552b = L.polyline(
+                [[41.0366821289063, 29.0533447265625], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_236c4defd53264abe0b1cbd93e9e59e9 = L.circleMarker(
+                [41.0366821289063, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_bcbcabcefcff3df55e2614d38b540762 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7026a77af014e92ec2e2b0a16ef36ea2 = $(`<div id="html_7026a77af014e92ec2e2b0a16ef36ea2" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0367, 29.0643)<br>Avg Speed: 26.8 km/h<br>Avg Vehicles/hr: 47</div>`)[0];
+                popup_bcbcabcefcff3df55e2614d38b540762.setContent(html_7026a77af014e92ec2e2b0a16ef36ea2);
+            
+        
+
+        circle_marker_236c4defd53264abe0b1cbd93e9e59e9.bindPopup(popup_bcbcabcefcff3df55e2614d38b540762)
+        ;
+
+        
+    
+    
+            var poly_line_cefdc006eaf4d81e5c865fb8819e9bcc = L.polyline(
+                [[41.0366821289063, 29.0643310546875], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_e36f993c360f4f0d95ed4cfeb7820da8 = L.circleMarker(
+                [41.0421752929688, 29.0093994140625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_cecc16e2c32e2499e58d0a97526e0559 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e26a6751e4ba9cf0cf5e48c747b9c6a7 = $(`<div id="html_e26a6751e4ba9cf0cf5e48c747b9c6a7" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0422, 29.0094)<br>Avg Speed: 19.2 km/h<br>Avg Vehicles/hr: 111</div>`)[0];
+                popup_cecc16e2c32e2499e58d0a97526e0559.setContent(html_e26a6751e4ba9cf0cf5e48c747b9c6a7);
+            
+        
+
+        circle_marker_e36f993c360f4f0d95ed4cfeb7820da8.bindPopup(popup_cecc16e2c32e2499e58d0a97526e0559)
+        ;
+
+        
+    
+    
+            var poly_line_ddbb8396ef47580d00411c48f58e6853 = L.polyline(
+                [[41.0421752929688, 29.0093994140625], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_d95d5c105ebbf53c8697e1860f76de9b = L.circleMarker(
+                [41.0421752929688, 29.0203857421875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_93f2777ae433ee3ad7d0f7c1259caac6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2da684a13fb76773cdb90e39a04d90f8 = $(`<div id="html_2da684a13fb76773cdb90e39a04d90f8" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0422, 29.0204)<br>Avg Speed: 32.8 km/h<br>Avg Vehicles/hr: 18</div>`)[0];
+                popup_93f2777ae433ee3ad7d0f7c1259caac6.setContent(html_2da684a13fb76773cdb90e39a04d90f8);
+            
+        
+
+        circle_marker_d95d5c105ebbf53c8697e1860f76de9b.bindPopup(popup_93f2777ae433ee3ad7d0f7c1259caac6)
+        ;
+
+        
+    
+    
+            var poly_line_3cb79b1f4a6d60ad7f209b9cc957709b = L.polyline(
+                [[41.0421752929688, 29.0203857421875], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_16de2c4e6db9ea6428733d977ecec3b8 = L.circleMarker(
+                [41.0421752929688, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_bcb5f3a0ed57c5171224f8d384753797 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3106cbf34e4d3a74c0abedc6c4ef9838 = $(`<div id="html_3106cbf34e4d3a74c0abedc6c4ef9838" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0422, 29.0314)<br>Avg Speed: 59.4 km/h<br>Avg Vehicles/hr: 97</div>`)[0];
+                popup_bcb5f3a0ed57c5171224f8d384753797.setContent(html_3106cbf34e4d3a74c0abedc6c4ef9838);
+            
+        
+
+        circle_marker_16de2c4e6db9ea6428733d977ecec3b8.bindPopup(popup_bcb5f3a0ed57c5171224f8d384753797)
+        ;
+
+        
+    
+    
+            var poly_line_6c6ca7bb54d26306f7c37f9f1e873bd9 = L.polyline(
+                [[41.0421752929688, 29.0313720703125], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_c9213878153515239e1daa0df46dd463 = L.circleMarker(
+                [41.0421752929688, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_9e4384d10c90b3d0f6a2dbe25377bed3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a16befcd6ce521d35171589d70cde3a = $(`<div id="html_9a16befcd6ce521d35171589d70cde3a" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0422, 29.0424)<br>Avg Speed: 45.0 km/h<br>Avg Vehicles/hr: 217</div>`)[0];
+                popup_9e4384d10c90b3d0f6a2dbe25377bed3.setContent(html_9a16befcd6ce521d35171589d70cde3a);
+            
+        
+
+        circle_marker_c9213878153515239e1daa0df46dd463.bindPopup(popup_9e4384d10c90b3d0f6a2dbe25377bed3)
+        ;
+
+        
+    
+    
+            var poly_line_292b3442645466f06c35181b60cab111 = L.polyline(
+                [[41.0421752929688, 29.0423583984375], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_677ee47a4b34c4ca1377fdb3ecd36432 = L.circleMarker(
+                [41.0421752929688, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_8888a216e1543ae40d022994e6e1867d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59465f8b62f80fafe1dd605be5603a6f = $(`<div id="html_59465f8b62f80fafe1dd605be5603a6f" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0422, 29.0533)<br>Avg Speed: 27.3 km/h<br>Avg Vehicles/hr: 18</div>`)[0];
+                popup_8888a216e1543ae40d022994e6e1867d.setContent(html_59465f8b62f80fafe1dd605be5603a6f);
+            
+        
+
+        circle_marker_677ee47a4b34c4ca1377fdb3ecd36432.bindPopup(popup_8888a216e1543ae40d022994e6e1867d)
+        ;
+
+        
+    
+    
+            var poly_line_1dbba181cb3929e8b3d76b31cc401daf = L.polyline(
+                [[41.0421752929688, 29.0533447265625], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_04deac0140e121f5b8d92f83373e6acd = L.circleMarker(
+                [41.0421752929688, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_4c87a7e159f063175cb4a8b2d806bff9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26ab34a927bef979d09c7d2c8f6acbf7 = $(`<div id="html_26ab34a927bef979d09c7d2c8f6acbf7" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0422, 29.0643)<br>Avg Speed: 22.1 km/h<br>Avg Vehicles/hr: 14</div>`)[0];
+                popup_4c87a7e159f063175cb4a8b2d806bff9.setContent(html_26ab34a927bef979d09c7d2c8f6acbf7);
+            
+        
+
+        circle_marker_04deac0140e121f5b8d92f83373e6acd.bindPopup(popup_4c87a7e159f063175cb4a8b2d806bff9)
+        ;
+
+        
+    
+    
+            var poly_line_935f926d9e8154d10d61dce78d5a0133 = L.polyline(
+                [[41.0421752929688, 29.0643310546875], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_b89c0a8f33cea481ea357198c898bce1 = L.circleMarker(
+                [41.0476684570313, 29.0093994140625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_990077379f94d8c308488f45ac4221e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb2226a4425aa7b593bd6a12433c6d76 = $(`<div id="html_bb2226a4425aa7b593bd6a12433c6d76" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0477, 29.0094)<br>Avg Speed: 26.4 km/h<br>Avg Vehicles/hr: 93</div>`)[0];
+                popup_990077379f94d8c308488f45ac4221e8.setContent(html_bb2226a4425aa7b593bd6a12433c6d76);
+            
+        
+
+        circle_marker_b89c0a8f33cea481ea357198c898bce1.bindPopup(popup_990077379f94d8c308488f45ac4221e8)
+        ;
+
+        
+    
+    
+            var poly_line_b317bdf67a2656ae91aacfdf8afc8557 = L.polyline(
+                [[41.0476684570313, 29.0093994140625], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_528ea6aeaee2fd70d7c2cc7955a8b850 = L.circleMarker(
+                [41.0476684570313, 29.0203857421875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_756cf8d25eba30ab129de7c2f8a913ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f0ceaaaa7aa06cd6609eda1da871caf = $(`<div id="html_0f0ceaaaa7aa06cd6609eda1da871caf" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0477, 29.0204)<br>Avg Speed: 24.7 km/h<br>Avg Vehicles/hr: 44</div>`)[0];
+                popup_756cf8d25eba30ab129de7c2f8a913ef.setContent(html_0f0ceaaaa7aa06cd6609eda1da871caf);
+            
+        
+
+        circle_marker_528ea6aeaee2fd70d7c2cc7955a8b850.bindPopup(popup_756cf8d25eba30ab129de7c2f8a913ef)
+        ;
+
+        
+    
+    
+            var poly_line_ab7d2bf56ae99e6ac5eff124c56f3e17 = L.polyline(
+                [[41.0476684570313, 29.0203857421875], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_279a9d600a0ff29a55ed280d2effed57 = L.circleMarker(
+                [41.0476684570313, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_54a7cfedb9ad4d32ab2cbc5adf5c0425 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76ad28676d82520a85f1eb0c8acf49b7 = $(`<div id="html_76ad28676d82520a85f1eb0c8acf49b7" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0477, 29.0314)<br>Avg Speed: 51.0 km/h<br>Avg Vehicles/hr: 219</div>`)[0];
+                popup_54a7cfedb9ad4d32ab2cbc5adf5c0425.setContent(html_76ad28676d82520a85f1eb0c8acf49b7);
+            
+        
+
+        circle_marker_279a9d600a0ff29a55ed280d2effed57.bindPopup(popup_54a7cfedb9ad4d32ab2cbc5adf5c0425)
+        ;
+
+        
+    
+    
+            var poly_line_dfa82e928bac3a2cded033941a2a7105 = L.polyline(
+                [[41.0476684570313, 29.0313720703125], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_2a5a762170b43883225dcc4745b6bf4e = L.circleMarker(
+                [41.0476684570313, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_6412114f83ea8325e3fc4afc22c12c9d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cb88e4b3e31dc0f7b70e98aaece52f3 = $(`<div id="html_1cb88e4b3e31dc0f7b70e98aaece52f3" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0477, 29.0424)<br>Avg Speed: 26.5 km/h<br>Avg Vehicles/hr: 12</div>`)[0];
+                popup_6412114f83ea8325e3fc4afc22c12c9d.setContent(html_1cb88e4b3e31dc0f7b70e98aaece52f3);
+            
+        
+
+        circle_marker_2a5a762170b43883225dcc4745b6bf4e.bindPopup(popup_6412114f83ea8325e3fc4afc22c12c9d)
+        ;
+
+        
+    
+    
+            var poly_line_a8d1677335136c72cfd7d580ff3beb71 = L.polyline(
+                [[41.0476684570313, 29.0423583984375], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_65687c383199eb56d3738bbaa8170383 = L.circleMarker(
+                [41.0476684570313, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_dcdf2b1888a73687e7b6272f061ba4fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e42251cbc56ba7f54b0896330ec21d9 = $(`<div id="html_7e42251cbc56ba7f54b0896330ec21d9" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0477, 29.0533)<br>Avg Speed: 23.8 km/h<br>Avg Vehicles/hr: 42</div>`)[0];
+                popup_dcdf2b1888a73687e7b6272f061ba4fe.setContent(html_7e42251cbc56ba7f54b0896330ec21d9);
+            
+        
+
+        circle_marker_65687c383199eb56d3738bbaa8170383.bindPopup(popup_dcdf2b1888a73687e7b6272f061ba4fe)
+        ;
+
+        
+    
+    
+            var poly_line_396b8640f1ac8db300315af8a4acbec4 = L.polyline(
+                [[41.0476684570313, 29.0533447265625], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_ad096b3db0eac6b59db5ac62510d3f94 = L.circleMarker(
+                [41.0476684570313, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_3233ded06f97217ff25974507a2c4a04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_383eaf92adaf6c756a331b6a9699e24e = $(`<div id="html_383eaf92adaf6c756a331b6a9699e24e" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0477, 29.0643)<br>Avg Speed: 25.1 km/h<br>Avg Vehicles/hr: 33</div>`)[0];
+                popup_3233ded06f97217ff25974507a2c4a04.setContent(html_383eaf92adaf6c756a331b6a9699e24e);
+            
+        
+
+        circle_marker_ad096b3db0eac6b59db5ac62510d3f94.bindPopup(popup_3233ded06f97217ff25974507a2c4a04)
+        ;
+
+        
+    
+    
+            var poly_line_9d81c4059713bb3be6766fc9b81f2897 = L.polyline(
+                [[41.0476684570313, 29.0643310546875], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_04c4908efda83565e43648eb194c4482 = L.circleMarker(
+                [41.0531616210938, 29.0093994140625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_1c6a6e3f0aaf31603025243f876324bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b65184f85f5790108db3087eadbf6008 = $(`<div id="html_b65184f85f5790108db3087eadbf6008" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0532, 29.0094)<br>Avg Speed: 33.6 km/h<br>Avg Vehicles/hr: 139</div>`)[0];
+                popup_1c6a6e3f0aaf31603025243f876324bd.setContent(html_b65184f85f5790108db3087eadbf6008);
+            
+        
+
+        circle_marker_04c4908efda83565e43648eb194c4482.bindPopup(popup_1c6a6e3f0aaf31603025243f876324bd)
+        ;
+
+        
+    
+    
+            var poly_line_9664c92e300ed4f819a78b16c2254a18 = L.polyline(
+                [[41.0531616210938, 29.0093994140625], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_838b77d94518cac79c671b1dabd5c50e = L.circleMarker(
+                [41.0531616210938, 29.0203857421875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_be7e72b1982b0d506a9be498079e3b02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b59480f7778502ccfb4cb0233a97830f = $(`<div id="html_b59480f7778502ccfb4cb0233a97830f" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0532, 29.0204)<br>Avg Speed: 45.0 km/h<br>Avg Vehicles/hr: 205</div>`)[0];
+                popup_be7e72b1982b0d506a9be498079e3b02.setContent(html_b59480f7778502ccfb4cb0233a97830f);
+            
+        
+
+        circle_marker_838b77d94518cac79c671b1dabd5c50e.bindPopup(popup_be7e72b1982b0d506a9be498079e3b02)
+        ;
+
+        
+    
+    
+            var poly_line_e799d46cb72b443be2a7ffedfb2b83db = L.polyline(
+                [[41.0531616210938, 29.0203857421875], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_88c752e848a6cd0527fc4f9f1ca8c7c5 = L.circleMarker(
+                [41.0531616210938, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_96a066cacc8e0544249cfe2fa85977cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0503782b56e58a77212a671a8b78d2b7 = $(`<div id="html_0503782b56e58a77212a671a8b78d2b7" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0532, 29.0314)<br>Avg Speed: 50.7 km/h<br>Avg Vehicles/hr: 196</div>`)[0];
+                popup_96a066cacc8e0544249cfe2fa85977cc.setContent(html_0503782b56e58a77212a671a8b78d2b7);
+            
+        
+
+        circle_marker_88c752e848a6cd0527fc4f9f1ca8c7c5.bindPopup(popup_96a066cacc8e0544249cfe2fa85977cc)
+        ;
+
+        
+    
+    
+            var poly_line_0bc78f241e1a16d3befced75ce5b6d2f = L.polyline(
+                [[41.0531616210938, 29.0313720703125], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_7cdd1c3ac3f89e59bb4574624f306591 = L.circleMarker(
+                [41.0531616210938, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_f49d585c860d17c5fe9691489bc3b260 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2b6fbba75398e349eb52f9134d2aff4 = $(`<div id="html_c2b6fbba75398e349eb52f9134d2aff4" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0532, 29.0533)<br>Avg Speed: 23.3 km/h<br>Avg Vehicles/hr: 22</div>`)[0];
+                popup_f49d585c860d17c5fe9691489bc3b260.setContent(html_c2b6fbba75398e349eb52f9134d2aff4);
+            
+        
+
+        circle_marker_7cdd1c3ac3f89e59bb4574624f306591.bindPopup(popup_f49d585c860d17c5fe9691489bc3b260)
+        ;
+
+        
+    
+    
+            var poly_line_da758e96f190c6c8ef66c508d304346b = L.polyline(
+                [[41.0531616210938, 29.0533447265625], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_8cbe061e23b9de4c2168891fa32a4735 = L.circleMarker(
+                [41.0531616210938, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_4e1a89a54cb0238bf1bd34dfd64ada6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4415ff0b2002c2f1e1830503f3007e49 = $(`<div id="html_4415ff0b2002c2f1e1830503f3007e49" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0532, 29.0643)<br>Avg Speed: 27.0 km/h<br>Avg Vehicles/hr: 28</div>`)[0];
+                popup_4e1a89a54cb0238bf1bd34dfd64ada6e.setContent(html_4415ff0b2002c2f1e1830503f3007e49);
+            
+        
+
+        circle_marker_8cbe061e23b9de4c2168891fa32a4735.bindPopup(popup_4e1a89a54cb0238bf1bd34dfd64ada6e)
+        ;
+
+        
+    
+    
+            var poly_line_9873138161a1a32312bc2aeb0d8b1c8f = L.polyline(
+                [[41.0531616210938, 29.0643310546875], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_9b85d97163d8c51b97190e0e518697e8 = L.circleMarker(
+                [41.0586547851563, 29.0093994140625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_5c9e1b374238557dea050faf5d1b4a41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44deb58deb47d0d809aaffc9f95c681b = $(`<div id="html_44deb58deb47d0d809aaffc9f95c681b" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0587, 29.0094)<br>Avg Speed: 31.3 km/h<br>Avg Vehicles/hr: 134</div>`)[0];
+                popup_5c9e1b374238557dea050faf5d1b4a41.setContent(html_44deb58deb47d0d809aaffc9f95c681b);
+            
+        
+
+        circle_marker_9b85d97163d8c51b97190e0e518697e8.bindPopup(popup_5c9e1b374238557dea050faf5d1b4a41)
+        ;
+
+        
+    
+    
+            var poly_line_857b7f9a25217a4901e9d25276640a08 = L.polyline(
+                [[41.0586547851563, 29.0093994140625], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_d6a23e6ad404863ff0cfce41e4a4a0e4 = L.circleMarker(
+                [41.0586547851563, 29.0203857421875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_28ff484fb8d0c563840b0898eb5fef1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c579aa13e9ca09b5e94b729e961c248 = $(`<div id="html_6c579aa13e9ca09b5e94b729e961c248" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0587, 29.0204)<br>Avg Speed: 45.0 km/h<br>Avg Vehicles/hr: 261</div>`)[0];
+                popup_28ff484fb8d0c563840b0898eb5fef1b.setContent(html_6c579aa13e9ca09b5e94b729e961c248);
+            
+        
+
+        circle_marker_d6a23e6ad404863ff0cfce41e4a4a0e4.bindPopup(popup_28ff484fb8d0c563840b0898eb5fef1b)
+        ;
+
+        
+    
+    
+            var poly_line_6ace10ca401403aed897f59b7e984440 = L.polyline(
+                [[41.0586547851563, 29.0203857421875], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_54ba0e8c887168f4e30a81a71c164f7e = L.circleMarker(
+                [41.0586547851563, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_80d71307666624dc750b103d8dd78d5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5dfa039c5c822d9a08c86273baf2dfe8 = $(`<div id="html_5dfa039c5c822d9a08c86273baf2dfe8" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0587, 29.0314)<br>Avg Speed: 26.1 km/h<br>Avg Vehicles/hr: 41</div>`)[0];
+                popup_80d71307666624dc750b103d8dd78d5d.setContent(html_5dfa039c5c822d9a08c86273baf2dfe8);
+            
+        
+
+        circle_marker_54ba0e8c887168f4e30a81a71c164f7e.bindPopup(popup_80d71307666624dc750b103d8dd78d5d)
+        ;
+
+        
+    
+    
+            var poly_line_86c1b74715d20172722c14761181cb33 = L.polyline(
+                [[41.0586547851563, 29.0313720703125], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_b9bc7b5e8932c12719b00ed22e57cd4f = L.circleMarker(
+                [41.0586547851563, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_48286202ccf198e22ed4104bc949faee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac28f2070a4a9a3a6ce74a25b7728bc1 = $(`<div id="html_ac28f2070a4a9a3a6ce74a25b7728bc1" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0587, 29.0424)<br>Avg Speed: 22.9 km/h<br>Avg Vehicles/hr: 6</div>`)[0];
+                popup_48286202ccf198e22ed4104bc949faee.setContent(html_ac28f2070a4a9a3a6ce74a25b7728bc1);
+            
+        
+
+        circle_marker_b9bc7b5e8932c12719b00ed22e57cd4f.bindPopup(popup_48286202ccf198e22ed4104bc949faee)
+        ;
+
+        
+    
+    
+            var poly_line_a05b978e9765ba19ac0387f242657349 = L.polyline(
+                [[41.0586547851563, 29.0423583984375], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_51bd0a764029650d7286ef49cdd55df5 = L.circleMarker(
+                [41.0586547851563, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_5c97e75708b9e18fd6220cbe8b051bb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8e4521ff50e08affe115e3ebc44f153 = $(`<div id="html_d8e4521ff50e08affe115e3ebc44f153" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0587, 29.0533)<br>Avg Speed: 32.7 km/h<br>Avg Vehicles/hr: 16</div>`)[0];
+                popup_5c97e75708b9e18fd6220cbe8b051bb4.setContent(html_d8e4521ff50e08affe115e3ebc44f153);
+            
+        
+
+        circle_marker_51bd0a764029650d7286ef49cdd55df5.bindPopup(popup_5c97e75708b9e18fd6220cbe8b051bb4)
+        ;
+
+        
+    
+    
+            var poly_line_25dbbc7860580ae5ca19e9152f6f86e1 = L.polyline(
+                [[41.0586547851563, 29.0533447265625], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_c67e172bd2524151f1e1496e7a5f34e5 = L.circleMarker(
+                [41.0586547851563, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_37ccc1689b81e468f71489eac02b1471 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0596777c6d5c9ed8d0263a46ea27baae = $(`<div id="html_0596777c6d5c9ed8d0263a46ea27baae" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0587, 29.0643)<br>Avg Speed: 27.5 km/h<br>Avg Vehicles/hr: 28</div>`)[0];
+                popup_37ccc1689b81e468f71489eac02b1471.setContent(html_0596777c6d5c9ed8d0263a46ea27baae);
+            
+        
+
+        circle_marker_c67e172bd2524151f1e1496e7a5f34e5.bindPopup(popup_37ccc1689b81e468f71489eac02b1471)
+        ;
+
+        
+    
+    
+            var poly_line_3f49ec411d2667e14dcd9e386dfed4f0 = L.polyline(
+                [[41.0586547851563, 29.0643310546875], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_9efe741d4d80d28f3ee8b908a9b683ab = L.circleMarker(
+                [41.0641479492188, 29.0093994140625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_e318bffcfe2f01e9736e18944a70ee3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a977b563dd5c91575a5fc236eb9727a = $(`<div id="html_3a977b563dd5c91575a5fc236eb9727a" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0641, 29.0094)<br>Avg Speed: 38.7 km/h<br>Avg Vehicles/hr: 317</div>`)[0];
+                popup_e318bffcfe2f01e9736e18944a70ee3d.setContent(html_3a977b563dd5c91575a5fc236eb9727a);
+            
+        
+
+        circle_marker_9efe741d4d80d28f3ee8b908a9b683ab.bindPopup(popup_e318bffcfe2f01e9736e18944a70ee3d)
+        ;
+
+        
+    
+    
+            var poly_line_77bec8e69614f782d7446b443758ab96 = L.polyline(
+                [[41.0641479492188, 29.0093994140625], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_3bdc1a1a70bedd298656c5e90fa41812 = L.circleMarker(
+                [41.0641479492188, 29.0203857421875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_757a44be4900ebadf0eb15564582bb54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0a0f408e2ffb0619cb8e90cd08fb4c5 = $(`<div id="html_b0a0f408e2ffb0619cb8e90cd08fb4c5" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0641, 29.0204)<br>Avg Speed: 41.6 km/h<br>Avg Vehicles/hr: 160</div>`)[0];
+                popup_757a44be4900ebadf0eb15564582bb54.setContent(html_b0a0f408e2ffb0619cb8e90cd08fb4c5);
+            
+        
+
+        circle_marker_3bdc1a1a70bedd298656c5e90fa41812.bindPopup(popup_757a44be4900ebadf0eb15564582bb54)
+        ;
+
+        
+    
+    
+            var poly_line_2f7232b811e79f472c05dcec6bd4d1b7 = L.polyline(
+                [[41.0641479492188, 29.0203857421875], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_cda7ea4e1bff0314cc3b7b0f577fb7ac = L.circleMarker(
+                [41.0641479492188, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_03115c6b58abfe16aa0c57041da1a8b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_790f224490a2f18d75fce0a77bc52348 = $(`<div id="html_790f224490a2f18d75fce0a77bc52348" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0641, 29.0314)<br>Avg Speed: 29.1 km/h<br>Avg Vehicles/hr: 33</div>`)[0];
+                popup_03115c6b58abfe16aa0c57041da1a8b9.setContent(html_790f224490a2f18d75fce0a77bc52348);
+            
+        
+
+        circle_marker_cda7ea4e1bff0314cc3b7b0f577fb7ac.bindPopup(popup_03115c6b58abfe16aa0c57041da1a8b9)
+        ;
+
+        
+    
+    
+            var poly_line_70289b7033fbe8791714fb67bc357273 = L.polyline(
+                [[41.0641479492188, 29.0313720703125], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_0a76cc2a6eb9b9c1102f3b79d5a59732 = L.circleMarker(
+                [41.0641479492188, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_dba7d15d1684eb80027c7bdb8479cb69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6188b5a097c5766c08b33419d7bc3245 = $(`<div id="html_6188b5a097c5766c08b33419d7bc3245" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0641, 29.0424)<br>Avg Speed: 31.4 km/h<br>Avg Vehicles/hr: 21</div>`)[0];
+                popup_dba7d15d1684eb80027c7bdb8479cb69.setContent(html_6188b5a097c5766c08b33419d7bc3245);
+            
+        
+
+        circle_marker_0a76cc2a6eb9b9c1102f3b79d5a59732.bindPopup(popup_dba7d15d1684eb80027c7bdb8479cb69)
+        ;
+
+        
+    
+    
+            var poly_line_efe0be29d924781e15efceec11e0f551 = L.polyline(
+                [[41.0641479492188, 29.0423583984375], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_ea147a0213e41072d0ee072a655668c1 = L.circleMarker(
+                [41.0641479492188, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_c3d05fda62d27c8f1a7760e6402ca822 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d82b4359fb9baec42f67ca56d34b7c40 = $(`<div id="html_d82b4359fb9baec42f67ca56d34b7c40" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0641, 29.0533)<br>Avg Speed: 33.4 km/h<br>Avg Vehicles/hr: 15</div>`)[0];
+                popup_c3d05fda62d27c8f1a7760e6402ca822.setContent(html_d82b4359fb9baec42f67ca56d34b7c40);
+            
+        
+
+        circle_marker_ea147a0213e41072d0ee072a655668c1.bindPopup(popup_c3d05fda62d27c8f1a7760e6402ca822)
+        ;
+
+        
+    
+    
+            var poly_line_5cf64a1f03fade3129fb8eb2fd198e04 = L.polyline(
+                [[41.0641479492188, 29.0533447265625], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_d9043b66448327d8e8ce388e3cc2094b = L.circleMarker(
+                [41.0641479492188, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_3d13d34f8ee0a02ba6c23011e751aabc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6b9d9cd6ec85f51421829cbe4987daf = $(`<div id="html_b6b9d9cd6ec85f51421829cbe4987daf" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0641, 29.0643)<br>Avg Speed: 26.1 km/h<br>Avg Vehicles/hr: 27</div>`)[0];
+                popup_3d13d34f8ee0a02ba6c23011e751aabc.setContent(html_b6b9d9cd6ec85f51421829cbe4987daf);
+            
+        
+
+        circle_marker_d9043b66448327d8e8ce388e3cc2094b.bindPopup(popup_3d13d34f8ee0a02ba6c23011e751aabc)
+        ;
+
+        
+    
+    
+            var poly_line_0e4c7c56fa9ff9c86639214f86e06d23 = L.polyline(
+                [[41.0641479492188, 29.0643310546875], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_0c14cb2d175e587e2c3119e7b1084b29 = L.circleMarker(
+                [41.0696411132813, 29.0203857421875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_44bdfeea7db8c3c6437352abfc67459f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9665cfd0007b3c2c6b62cf9a0bc48521 = $(`<div id="html_9665cfd0007b3c2c6b62cf9a0bc48521" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0696, 29.0204)<br>Avg Speed: 40.5 km/h<br>Avg Vehicles/hr: 223</div>`)[0];
+                popup_44bdfeea7db8c3c6437352abfc67459f.setContent(html_9665cfd0007b3c2c6b62cf9a0bc48521);
+            
+        
+
+        circle_marker_0c14cb2d175e587e2c3119e7b1084b29.bindPopup(popup_44bdfeea7db8c3c6437352abfc67459f)
+        ;
+
+        
+    
+    
+            var poly_line_943ef22edcb70637a34a00c0df7da1c8 = L.polyline(
+                [[41.0696411132813, 29.0203857421875], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_0476ef2bcaab09ce3842c2bc6d43dcd0 = L.circleMarker(
+                [41.0696411132813, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_3e8cbd764c2f89e925dba6a574f2f2d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31bb363f537bfee7f4c18d7bb0d50f8e = $(`<div id="html_31bb363f537bfee7f4c18d7bb0d50f8e" style="width: 100.0%; height: 100.0%;">Sensor near 15 July Martyrs<br>Coordinates: (41.0696, 29.0314)<br>Avg Speed: 32.0 km/h<br>Avg Vehicles/hr: 43</div>`)[0];
+                popup_3e8cbd764c2f89e925dba6a574f2f2d3.setContent(html_31bb363f537bfee7f4c18d7bb0d50f8e);
+            
+        
+
+        circle_marker_0476ef2bcaab09ce3842c2bc6d43dcd0.bindPopup(popup_3e8cbd764c2f89e925dba6a574f2f2d3)
+        ;
+
+        
+    
+    
+            var poly_line_01a17dac2b46aee28806ee18132851d7 = L.polyline(
+                [[41.0696411132813, 29.0313720703125], [41.047, 29.034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_cf1f1a93898ae9ce3280e34051d24121 = L.circleMarker(
+                [41.0696411132813, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_6d21f300d87d018a6735a2e0fe9458e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fff17e97013fc4431dcab495c1f247c = $(`<div id="html_5fff17e97013fc4431dcab495c1f247c" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0696, 29.0424)<br>Avg Speed: 28.6 km/h<br>Avg Vehicles/hr: 26</div>`)[0];
+                popup_6d21f300d87d018a6735a2e0fe9458e5.setContent(html_5fff17e97013fc4431dcab495c1f247c);
+            
+        
+
+        circle_marker_cf1f1a93898ae9ce3280e34051d24121.bindPopup(popup_6d21f300d87d018a6735a2e0fe9458e5)
+        ;
+
+        
+    
+    
+            var poly_line_1f32c8e53f8ddc51602aad07cbc37961 = L.polyline(
+                [[41.0696411132813, 29.0423583984375], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_c7bb83fbc5ce0dc0c99a1c4bcb3cf239 = L.circleMarker(
+                [41.0696411132813, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_49481b2e075028d2fbf4e2e8668c8ba9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c0c437ab8a2611994166e15c81d8385 = $(`<div id="html_7c0c437ab8a2611994166e15c81d8385" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0696, 29.0533)<br>Avg Speed: 38.7 km/h<br>Avg Vehicles/hr: 15</div>`)[0];
+                popup_49481b2e075028d2fbf4e2e8668c8ba9.setContent(html_7c0c437ab8a2611994166e15c81d8385);
+            
+        
+
+        circle_marker_c7bb83fbc5ce0dc0c99a1c4bcb3cf239.bindPopup(popup_49481b2e075028d2fbf4e2e8668c8ba9)
+        ;
+
+        
+    
+    
+            var poly_line_1841d5987a6c19590f5aab29abc58d02 = L.polyline(
+                [[41.0696411132813, 29.0533447265625], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_06912288702e7a9b04edf9e527da50d0 = L.circleMarker(
+                [41.0696411132813, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_14b0bf7f8b15a02f6d50fc14dc8ceed5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d35b3a8c65da532fc457224235b9ff0c = $(`<div id="html_d35b3a8c65da532fc457224235b9ff0c" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0696, 29.0643)<br>Avg Speed: 28.7 km/h<br>Avg Vehicles/hr: 24</div>`)[0];
+                popup_14b0bf7f8b15a02f6d50fc14dc8ceed5.setContent(html_d35b3a8c65da532fc457224235b9ff0c);
+            
+        
+
+        circle_marker_06912288702e7a9b04edf9e527da50d0.bindPopup(popup_14b0bf7f8b15a02f6d50fc14dc8ceed5)
+        ;
+
+        
+    
+    
+            var poly_line_2005a8ec88897faa9c39d6c15c2eefa9 = L.polyline(
+                [[41.0696411132813, 29.0643310546875], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_ae3efdd9647b85390baad49b8475c2ea = L.circleMarker(
+                [41.0696411132813, 29.0753173828125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_da73db37c215082c36e4869995ae5063 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c096de6dd1a5322300f85d7a3d00b200 = $(`<div id="html_c096de6dd1a5322300f85d7a3d00b200" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0696, 29.0753)<br>Avg Speed: 26.1 km/h<br>Avg Vehicles/hr: 41</div>`)[0];
+                popup_da73db37c215082c36e4869995ae5063.setContent(html_c096de6dd1a5322300f85d7a3d00b200);
+            
+        
+
+        circle_marker_ae3efdd9647b85390baad49b8475c2ea.bindPopup(popup_da73db37c215082c36e4869995ae5063)
+        ;
+
+        
+    
+    
+            var poly_line_8246d8bf6304fb943c0427c929b38f33 = L.polyline(
+                [[41.0696411132813, 29.0753173828125], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_a9a4983839a2de36f58fb6681934e325 = L.circleMarker(
+                [41.0751342773438, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_a32a6d7d04c495850150531a066d6b6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_420aa5570bbbf68fe37a9e40022b5e0b = $(`<div id="html_420aa5570bbbf68fe37a9e40022b5e0b" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0751, 29.0314)<br>Avg Speed: 27.2 km/h<br>Avg Vehicles/hr: 101</div>`)[0];
+                popup_a32a6d7d04c495850150531a066d6b6f.setContent(html_420aa5570bbbf68fe37a9e40022b5e0b);
+            
+        
+
+        circle_marker_a9a4983839a2de36f58fb6681934e325.bindPopup(popup_a32a6d7d04c495850150531a066d6b6f)
+        ;
+
+        
+    
+    
+            var poly_line_1d00a025186ce6027ee8ac3eaf4f4691 = L.polyline(
+                [[41.0751342773438, 29.0313720703125], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_6a95c58d79dc862a49a2e7b6e35ee4c9 = L.circleMarker(
+                [41.0751342773438, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_bec6bb90fa24241f0f683c12c4b0f907 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5eb950156bd3ee89fa5151fc2773ec40 = $(`<div id="html_5eb950156bd3ee89fa5151fc2773ec40" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0751, 29.0424)<br>Avg Speed: 27.1 km/h<br>Avg Vehicles/hr: 26</div>`)[0];
+                popup_bec6bb90fa24241f0f683c12c4b0f907.setContent(html_5eb950156bd3ee89fa5151fc2773ec40);
+            
+        
+
+        circle_marker_6a95c58d79dc862a49a2e7b6e35ee4c9.bindPopup(popup_bec6bb90fa24241f0f683c12c4b0f907)
+        ;
+
+        
+    
+    
+            var poly_line_9dc4c568c6498fef6086632a0bec4f64 = L.polyline(
+                [[41.0751342773438, 29.0423583984375], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_bca5951825ca800d4506ef6b418fea8e = L.circleMarker(
+                [41.0751342773438, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_388324166e7c7e85c3efa177a8df5085 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4f109a8519b1d40433b4f2586793555 = $(`<div id="html_a4f109a8519b1d40433b4f2586793555" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0751, 29.0533)<br>Avg Speed: 34.5 km/h<br>Avg Vehicles/hr: 15</div>`)[0];
+                popup_388324166e7c7e85c3efa177a8df5085.setContent(html_a4f109a8519b1d40433b4f2586793555);
+            
+        
+
+        circle_marker_bca5951825ca800d4506ef6b418fea8e.bindPopup(popup_388324166e7c7e85c3efa177a8df5085)
+        ;
+
+        
+    
+    
+            var poly_line_6b9e20627da455938b679b227d909000 = L.polyline(
+                [[41.0751342773438, 29.0533447265625], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_e486fca0fd86ba33943dd0afe4072cb5 = L.circleMarker(
+                [41.0751342773438, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_cc3d6669371faa14e3a59060c4514f7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0795f6365da2ad761b198bdc14f68dc5 = $(`<div id="html_0795f6365da2ad761b198bdc14f68dc5" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0751, 29.0643)<br>Avg Speed: 28.3 km/h<br>Avg Vehicles/hr: 62</div>`)[0];
+                popup_cc3d6669371faa14e3a59060c4514f7f.setContent(html_0795f6365da2ad761b198bdc14f68dc5);
+            
+        
+
+        circle_marker_e486fca0fd86ba33943dd0afe4072cb5.bindPopup(popup_cc3d6669371faa14e3a59060c4514f7f)
+        ;
+
+        
+    
+    
+            var poly_line_b43c2658c460a58c0a67ff113c8621f0 = L.polyline(
+                [[41.0751342773438, 29.0643310546875], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_aefe326849eb81e71340d8ae415b3cbc = L.circleMarker(
+                [41.0751342773438, 29.0753173828125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_b6c35c19cfc1fee9667681517fcae5db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_465c3423e44b41b049c98c9e17fca8a9 = $(`<div id="html_465c3423e44b41b049c98c9e17fca8a9" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0751, 29.0753)<br>Avg Speed: 26.5 km/h<br>Avg Vehicles/hr: 53</div>`)[0];
+                popup_b6c35c19cfc1fee9667681517fcae5db.setContent(html_465c3423e44b41b049c98c9e17fca8a9);
+            
+        
+
+        circle_marker_aefe326849eb81e71340d8ae415b3cbc.bindPopup(popup_b6c35c19cfc1fee9667681517fcae5db)
+        ;
+
+        
+    
+    
+            var poly_line_4c811396e5330789d365e44d0a02aa8e = L.polyline(
+                [[41.0751342773438, 29.0753173828125], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_c1034c8695572cea573b0856852da4ae = L.circleMarker(
+                [41.0806274414063, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_02a7e919b7d5b0a9dba43605fa82ffbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f47c2da4b4b8c0de3c4b829d8a02492 = $(`<div id="html_1f47c2da4b4b8c0de3c4b829d8a02492" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0806, 29.0314)<br>Avg Speed: 23.6 km/h<br>Avg Vehicles/hr: 74</div>`)[0];
+                popup_02a7e919b7d5b0a9dba43605fa82ffbf.setContent(html_1f47c2da4b4b8c0de3c4b829d8a02492);
+            
+        
+
+        circle_marker_c1034c8695572cea573b0856852da4ae.bindPopup(popup_02a7e919b7d5b0a9dba43605fa82ffbf)
+        ;
+
+        
+    
+    
+            var poly_line_ce594e235ece83f279dfb414fdf19764 = L.polyline(
+                [[41.0806274414063, 29.0313720703125], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_766bb6d5996c960254db2b837c5fbea5 = L.circleMarker(
+                [41.0806274414063, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_7d5d06e068d0a4f29f4a98b51a3d3b8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4796dca69b9ed164552cdbbff96db84 = $(`<div id="html_b4796dca69b9ed164552cdbbff96db84" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0806, 29.0424)<br>Avg Speed: 21.7 km/h<br>Avg Vehicles/hr: 39</div>`)[0];
+                popup_7d5d06e068d0a4f29f4a98b51a3d3b8f.setContent(html_b4796dca69b9ed164552cdbbff96db84);
+            
+        
+
+        circle_marker_766bb6d5996c960254db2b837c5fbea5.bindPopup(popup_7d5d06e068d0a4f29f4a98b51a3d3b8f)
+        ;
+
+        
+    
+    
+            var poly_line_fddcf6d7d146bfd74e86fbd788294585 = L.polyline(
+                [[41.0806274414063, 29.0423583984375], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_c47c2d15f843fc8d76fd22315725d138 = L.circleMarker(
+                [41.0806274414063, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_8a0fa4b2bbcddda0ac6920f1b0b740f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92fc81b710fadefb158773a2bc25391f = $(`<div id="html_92fc81b710fadefb158773a2bc25391f" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0806, 29.0533)<br>Avg Speed: 32.0 km/h<br>Avg Vehicles/hr: 15</div>`)[0];
+                popup_8a0fa4b2bbcddda0ac6920f1b0b740f3.setContent(html_92fc81b710fadefb158773a2bc25391f);
+            
+        
+
+        circle_marker_c47c2d15f843fc8d76fd22315725d138.bindPopup(popup_8a0fa4b2bbcddda0ac6920f1b0b740f3)
+        ;
+
+        
+    
+    
+            var poly_line_17e675bddd2752a1bfb26571ec15696f = L.polyline(
+                [[41.0806274414063, 29.0533447265625], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_ebc8a32e6571bdc943e702a226d8abe2 = L.circleMarker(
+                [41.0806274414063, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_5fb234e1de7430bedad0c5c6fdbf521d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5369f13cf0b91d7073d442236db2ccc1 = $(`<div id="html_5369f13cf0b91d7073d442236db2ccc1" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0806, 29.0643)<br>Avg Speed: 28.6 km/h<br>Avg Vehicles/hr: 55</div>`)[0];
+                popup_5fb234e1de7430bedad0c5c6fdbf521d.setContent(html_5369f13cf0b91d7073d442236db2ccc1);
+            
+        
+
+        circle_marker_ebc8a32e6571bdc943e702a226d8abe2.bindPopup(popup_5fb234e1de7430bedad0c5c6fdbf521d)
+        ;
+
+        
+    
+    
+            var poly_line_7505e81408e34e0aa8e8714805aadbda = L.polyline(
+                [[41.0806274414063, 29.0643310546875], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_43d04cab71a50b388b33541bf8b530bb = L.circleMarker(
+                [41.0806274414063, 29.0753173828125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_32ece2c10f4bdc8778202ca48dd91e75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_234915b29036a6cda4eecc023f203d99 = $(`<div id="html_234915b29036a6cda4eecc023f203d99" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0806, 29.0753)<br>Avg Speed: 33.9 km/h<br>Avg Vehicles/hr: 73</div>`)[0];
+                popup_32ece2c10f4bdc8778202ca48dd91e75.setContent(html_234915b29036a6cda4eecc023f203d99);
+            
+        
+
+        circle_marker_43d04cab71a50b388b33541bf8b530bb.bindPopup(popup_32ece2c10f4bdc8778202ca48dd91e75)
+        ;
+
+        
+    
+    
+            var poly_line_17bc909f12ed2c60ddcd87891fd62acd = L.polyline(
+                [[41.0806274414063, 29.0753173828125], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_f2dd4a1e12a8c5e696fbc24ce0a80df9 = L.circleMarker(
+                [41.0806274414063, 29.0863037109375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_f3df6bb849a0e300d94ec223bbda7a00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d06abf9a9c85f7b82e8e9fa5f9a357ff = $(`<div id="html_d06abf9a9c85f7b82e8e9fa5f9a357ff" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0806, 29.0863)<br>Avg Speed: 50.2 km/h<br>Avg Vehicles/hr: 39</div>`)[0];
+                popup_f3df6bb849a0e300d94ec223bbda7a00.setContent(html_d06abf9a9c85f7b82e8e9fa5f9a357ff);
+            
+        
+
+        circle_marker_f2dd4a1e12a8c5e696fbc24ce0a80df9.bindPopup(popup_f3df6bb849a0e300d94ec223bbda7a00)
+        ;
+
+        
+    
+    
+            var poly_line_8651bac3f0ed2354eebdc0855bde142f = L.polyline(
+                [[41.0806274414063, 29.0863037109375], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_a2d872f867ab62423d4eeb272bb6d763 = L.circleMarker(
+                [41.0861206054688, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_2f97a1de350efb4e93bf45e61c5286d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69905b0a9e90fe80477d67caf8b03496 = $(`<div id="html_69905b0a9e90fe80477d67caf8b03496" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0861, 29.0314)<br>Avg Speed: 25.7 km/h<br>Avg Vehicles/hr: 55</div>`)[0];
+                popup_2f97a1de350efb4e93bf45e61c5286d4.setContent(html_69905b0a9e90fe80477d67caf8b03496);
+            
+        
+
+        circle_marker_a2d872f867ab62423d4eeb272bb6d763.bindPopup(popup_2f97a1de350efb4e93bf45e61c5286d4)
+        ;
+
+        
+    
+    
+            var poly_line_5673281e5d4ac708a3770b0661e7b063 = L.polyline(
+                [[41.0861206054688, 29.0313720703125], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_8129f7616c67ba8e4bb04512817563b4 = L.circleMarker(
+                [41.0861206054688, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_2df1335e778a30f172cddc13d63b6cba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c98ce045c6b9431bf9c4f0e815a414bd = $(`<div id="html_c98ce045c6b9431bf9c4f0e815a414bd" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0861, 29.0424)<br>Avg Speed: 24.7 km/h<br>Avg Vehicles/hr: 39</div>`)[0];
+                popup_2df1335e778a30f172cddc13d63b6cba.setContent(html_c98ce045c6b9431bf9c4f0e815a414bd);
+            
+        
+
+        circle_marker_8129f7616c67ba8e4bb04512817563b4.bindPopup(popup_2df1335e778a30f172cddc13d63b6cba)
+        ;
+
+        
+    
+    
+            var poly_line_088cb0611a799aeddd0302ea7fae2b05 = L.polyline(
+                [[41.0861206054688, 29.0423583984375], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_e31ef7c8b4eda26a9b79978eb60562ee = L.circleMarker(
+                [41.0861206054688, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_db77db959fe0493456ebde3c840b390b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b77860af800c5a9070844079d7b48b70 = $(`<div id="html_b77860af800c5a9070844079d7b48b70" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0861, 29.0533)<br>Avg Speed: 27.3 km/h<br>Avg Vehicles/hr: 19</div>`)[0];
+                popup_db77db959fe0493456ebde3c840b390b.setContent(html_b77860af800c5a9070844079d7b48b70);
+            
+        
+
+        circle_marker_e31ef7c8b4eda26a9b79978eb60562ee.bindPopup(popup_db77db959fe0493456ebde3c840b390b)
+        ;
+
+        
+    
+    
+            var poly_line_da8a8390f882f858e39ba59c49dd9b9b = L.polyline(
+                [[41.0861206054688, 29.0533447265625], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_0967aaea2aeb8361168100303c0abc80 = L.circleMarker(
+                [41.0861206054688, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_1b7302763f9f64dad7f10cb4c71346f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88ecee174567b811e68d3a2ca79f5718 = $(`<div id="html_88ecee174567b811e68d3a2ca79f5718" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0861, 29.0643)<br>Avg Speed: 35.5 km/h<br>Avg Vehicles/hr: 17</div>`)[0];
+                popup_1b7302763f9f64dad7f10cb4c71346f1.setContent(html_88ecee174567b811e68d3a2ca79f5718);
+            
+        
+
+        circle_marker_0967aaea2aeb8361168100303c0abc80.bindPopup(popup_1b7302763f9f64dad7f10cb4c71346f1)
+        ;
+
+        
+    
+    
+            var poly_line_e2ebfce9e891c7f3063def8f0afa8093 = L.polyline(
+                [[41.0861206054688, 29.0643310546875], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_5330c9eef2a17c39b0b297db964d7847 = L.circleMarker(
+                [41.0861206054688, 29.0753173828125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_fd5f049919914ec460c4d8271763213e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_561eecf8864d7dac64ca319805929c5a = $(`<div id="html_561eecf8864d7dac64ca319805929c5a" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0861, 29.0753)<br>Avg Speed: 23.7 km/h<br>Avg Vehicles/hr: 12</div>`)[0];
+                popup_fd5f049919914ec460c4d8271763213e.setContent(html_561eecf8864d7dac64ca319805929c5a);
+            
+        
+
+        circle_marker_5330c9eef2a17c39b0b297db964d7847.bindPopup(popup_fd5f049919914ec460c4d8271763213e)
+        ;
+
+        
+    
+    
+            var poly_line_39e3be11c722522ac8859233c82310e5 = L.polyline(
+                [[41.0861206054688, 29.0753173828125], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_8b973263144b44ead1c7bd947387d3ff = L.circleMarker(
+                [41.0861206054688, 29.0863037109375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_e81ca031afc1a8870d520edd43d497d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa1b69743fd7700f8f5819efeddaa321 = $(`<div id="html_aa1b69743fd7700f8f5819efeddaa321" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0861, 29.0863)<br>Avg Speed: 43.9 km/h<br>Avg Vehicles/hr: 145</div>`)[0];
+                popup_e81ca031afc1a8870d520edd43d497d1.setContent(html_aa1b69743fd7700f8f5819efeddaa321);
+            
+        
+
+        circle_marker_8b973263144b44ead1c7bd947387d3ff.bindPopup(popup_e81ca031afc1a8870d520edd43d497d1)
+        ;
+
+        
+    
+    
+            var poly_line_01057ba01953e0ac53f6975e9cf77621 = L.polyline(
+                [[41.0861206054688, 29.0863037109375], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_f0583db8fc2f7a78e1bd7121fa2c258c = L.circleMarker(
+                [41.0916137695313, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_d4638d7c023b3b5a715f8c1ae1308713 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_198f6dc2c5dab07ffb33d8582d9c2794 = $(`<div id="html_198f6dc2c5dab07ffb33d8582d9c2794" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0916, 29.0314)<br>Avg Speed: 58.3 km/h<br>Avg Vehicles/hr: 372</div>`)[0];
+                popup_d4638d7c023b3b5a715f8c1ae1308713.setContent(html_198f6dc2c5dab07ffb33d8582d9c2794);
+            
+        
+
+        circle_marker_f0583db8fc2f7a78e1bd7121fa2c258c.bindPopup(popup_d4638d7c023b3b5a715f8c1ae1308713)
+        ;
+
+        
+    
+    
+            var poly_line_6349398d01311375c886267e27108995 = L.polyline(
+                [[41.0916137695313, 29.0313720703125], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_beebb2582d8effd7facd2d40b6a82831 = L.circleMarker(
+                [41.0916137695313, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_53939f74c3195485948b081d38ad7909 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea5876d5fcb361c53b1b9fe9cc8562ca = $(`<div id="html_ea5876d5fcb361c53b1b9fe9cc8562ca" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0916, 29.0424)<br>Avg Speed: 61.4 km/h<br>Avg Vehicles/hr: 412</div>`)[0];
+                popup_53939f74c3195485948b081d38ad7909.setContent(html_ea5876d5fcb361c53b1b9fe9cc8562ca);
+            
+        
+
+        circle_marker_beebb2582d8effd7facd2d40b6a82831.bindPopup(popup_53939f74c3195485948b081d38ad7909)
+        ;
+
+        
+    
+    
+            var poly_line_bd55a0f99dad195d8c1863c43a0211fc = L.polyline(
+                [[41.0916137695313, 29.0423583984375], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_4ad2c1ce86ecd11b180612e805721a7d = L.circleMarker(
+                [41.0916137695313, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_027716fafbdf23083e1ca429c91a37a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf7c0d13164ce4cd1cfd440e22579eee = $(`<div id="html_bf7c0d13164ce4cd1cfd440e22579eee" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0916, 29.0533)<br>Avg Speed: 69.7 km/h<br>Avg Vehicles/hr: 374</div>`)[0];
+                popup_027716fafbdf23083e1ca429c91a37a5.setContent(html_bf7c0d13164ce4cd1cfd440e22579eee);
+            
+        
+
+        circle_marker_4ad2c1ce86ecd11b180612e805721a7d.bindPopup(popup_027716fafbdf23083e1ca429c91a37a5)
+        ;
+
+        
+    
+    
+            var poly_line_f8b118191103388e1f23033c3e4b943e = L.polyline(
+                [[41.0916137695313, 29.0533447265625], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_2d22bec4faff21de9f02babd69a15631 = L.circleMarker(
+                [41.0916137695313, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_96e1aa0de864dd888e74b993e9b6f647 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfcc6afa92c785618cfe2751272eaad1 = $(`<div id="html_bfcc6afa92c785618cfe2751272eaad1" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0916, 29.0643)<br>Avg Speed: 69.8 km/h<br>Avg Vehicles/hr: 353</div>`)[0];
+                popup_96e1aa0de864dd888e74b993e9b6f647.setContent(html_bfcc6afa92c785618cfe2751272eaad1);
+            
+        
+
+        circle_marker_2d22bec4faff21de9f02babd69a15631.bindPopup(popup_96e1aa0de864dd888e74b993e9b6f647)
+        ;
+
+        
+    
+    
+            var poly_line_f52c9ac484abf92b12eef3add0a65b3d = L.polyline(
+                [[41.0916137695313, 29.0643310546875], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_3a76696c10d0b422b77d7a7520d3e944 = L.circleMarker(
+                [41.0916137695313, 29.0753173828125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_823518caf03ab71ac9d155215da42cb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e9cec4cabcccdd3465c9e783e4b4516 = $(`<div id="html_9e9cec4cabcccdd3465c9e783e4b4516" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0916, 29.0753)<br>Avg Speed: 67.0 km/h<br>Avg Vehicles/hr: 364</div>`)[0];
+                popup_823518caf03ab71ac9d155215da42cb9.setContent(html_9e9cec4cabcccdd3465c9e783e4b4516);
+            
+        
+
+        circle_marker_3a76696c10d0b422b77d7a7520d3e944.bindPopup(popup_823518caf03ab71ac9d155215da42cb9)
+        ;
+
+        
+    
+    
+            var poly_line_a6e57b3aa86c10da3372840c3013274e = L.polyline(
+                [[41.0916137695313, 29.0753173828125], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_90b1f8b93e63391bfb6ad847cc2d089a = L.circleMarker(
+                [41.0916137695313, 29.0863037109375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_7497793afc1d6887c14fc67e588098aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7dbdf82962b041803132443378270964 = $(`<div id="html_7dbdf82962b041803132443378270964" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0916, 29.0863)<br>Avg Speed: 54.6 km/h<br>Avg Vehicles/hr: 473</div>`)[0];
+                popup_7497793afc1d6887c14fc67e588098aa.setContent(html_7dbdf82962b041803132443378270964);
+            
+        
+
+        circle_marker_90b1f8b93e63391bfb6ad847cc2d089a.bindPopup(popup_7497793afc1d6887c14fc67e588098aa)
+        ;
+
+        
+    
+    
+            var poly_line_f506f2d52ca4d32228344d52a97d8b7f = L.polyline(
+                [[41.0916137695313, 29.0863037109375], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_5b73cac5d3bc6f7f8769a3b0410a912f = L.circleMarker(
+                [41.0971069335938, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_2d4da9a9bf4566a00186cb186e88f5f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40ccf6925cf062d5f70d496a5356bee6 = $(`<div id="html_40ccf6925cf062d5f70d496a5356bee6" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0971, 29.0314)<br>Avg Speed: 39.3 km/h<br>Avg Vehicles/hr: 27</div>`)[0];
+                popup_2d4da9a9bf4566a00186cb186e88f5f7.setContent(html_40ccf6925cf062d5f70d496a5356bee6);
+            
+        
+
+        circle_marker_5b73cac5d3bc6f7f8769a3b0410a912f.bindPopup(popup_2d4da9a9bf4566a00186cb186e88f5f7)
+        ;
+
+        
+    
+    
+            var poly_line_526aa5da2fdfe7f30b114dfffa37617f = L.polyline(
+                [[41.0971069335938, 29.0313720703125], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_612a037ef0c845718e5a1a70d7b0b336 = L.circleMarker(
+                [41.0971069335938, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_84778b67f616027812a8372690d8b0fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88e5db941c0fd7556de1aac06d99835c = $(`<div id="html_88e5db941c0fd7556de1aac06d99835c" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0971, 29.0424)<br>Avg Speed: 49.5 km/h<br>Avg Vehicles/hr: 18</div>`)[0];
+                popup_84778b67f616027812a8372690d8b0fe.setContent(html_88e5db941c0fd7556de1aac06d99835c);
+            
+        
+
+        circle_marker_612a037ef0c845718e5a1a70d7b0b336.bindPopup(popup_84778b67f616027812a8372690d8b0fe)
+        ;
+
+        
+    
+    
+            var poly_line_a25ba5968c83117552758ab6599d8d52 = L.polyline(
+                [[41.0971069335938, 29.0423583984375], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_49796706d0c0c1baff96c5ac701a63c5 = L.circleMarker(
+                [41.0971069335938, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_9c6c21a14cbf07de7b26fc8956d5fa54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74ded2db7b4f2749e16a4bee9ae191f9 = $(`<div id="html_74ded2db7b4f2749e16a4bee9ae191f9" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0971, 29.0533)<br>Avg Speed: 32.3 km/h<br>Avg Vehicles/hr: 50</div>`)[0];
+                popup_9c6c21a14cbf07de7b26fc8956d5fa54.setContent(html_74ded2db7b4f2749e16a4bee9ae191f9);
+            
+        
+
+        circle_marker_49796706d0c0c1baff96c5ac701a63c5.bindPopup(popup_9c6c21a14cbf07de7b26fc8956d5fa54)
+        ;
+
+        
+    
+    
+            var poly_line_62f767ea1fe4bf24c6f88494e34346dc = L.polyline(
+                [[41.0971069335938, 29.0533447265625], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_828da53fbc8e7d463ed99f528aa46a76 = L.circleMarker(
+                [41.0971069335938, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_5db8862b1625a18e912f99dd2d182bc1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b892c8204cd05eb8f9993db6ac3d5c1 = $(`<div id="html_2b892c8204cd05eb8f9993db6ac3d5c1" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0971, 29.0643)<br>Avg Speed: 35.2 km/h<br>Avg Vehicles/hr: 13</div>`)[0];
+                popup_5db8862b1625a18e912f99dd2d182bc1.setContent(html_2b892c8204cd05eb8f9993db6ac3d5c1);
+            
+        
+
+        circle_marker_828da53fbc8e7d463ed99f528aa46a76.bindPopup(popup_5db8862b1625a18e912f99dd2d182bc1)
+        ;
+
+        
+    
+    
+            var poly_line_3635649bd80fb20241d2c80a42540e4d = L.polyline(
+                [[41.0971069335938, 29.0643310546875], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_e53b8e8d211df254937d742a1fc97ad4 = L.circleMarker(
+                [41.0971069335938, 29.0863037109375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_c78d4a129af369dbc64e59d436844eb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de05bff4d20d315957a9635561f5d856 = $(`<div id="html_de05bff4d20d315957a9635561f5d856" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.0971, 29.0863)<br>Avg Speed: 21.0 km/h<br>Avg Vehicles/hr: 26</div>`)[0];
+                popup_c78d4a129af369dbc64e59d436844eb4.setContent(html_de05bff4d20d315957a9635561f5d856);
+            
+        
+
+        circle_marker_e53b8e8d211df254937d742a1fc97ad4.bindPopup(popup_c78d4a129af369dbc64e59d436844eb4)
+        ;
+
+        
+    
+    
+            var poly_line_892bad166b09edfd689af14611d39931 = L.polyline(
+                [[41.0971069335938, 29.0863037109375], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_ed7a539cf58e2280f1ad7a886791893d = L.circleMarker(
+                [41.1026000976563, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_36f1f29451d9d7bedd87096cc6edf0e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd8cbe100a7c77df06b74ba7c31930ee = $(`<div id="html_cd8cbe100a7c77df06b74ba7c31930ee" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.1026, 29.0314)<br>Avg Speed: 45.5 km/h<br>Avg Vehicles/hr: 1</div>`)[0];
+                popup_36f1f29451d9d7bedd87096cc6edf0e8.setContent(html_cd8cbe100a7c77df06b74ba7c31930ee);
+            
+        
+
+        circle_marker_ed7a539cf58e2280f1ad7a886791893d.bindPopup(popup_36f1f29451d9d7bedd87096cc6edf0e8)
+        ;
+
+        
+    
+    
+            var poly_line_a046b747b857cce75a54e0cf21a2f511 = L.polyline(
+                [[41.1026000976563, 29.0313720703125], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_b87420e90a63caa1181da92432ba5b60 = L.circleMarker(
+                [41.1026000976563, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_8ebba6163a64361dc9b439c3f5dd50b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_024d3bd92d6ec13af51ea69cf8e3beff = $(`<div id="html_024d3bd92d6ec13af51ea69cf8e3beff" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.1026, 29.0424)<br>Avg Speed: 41.7 km/h<br>Avg Vehicles/hr: 23</div>`)[0];
+                popup_8ebba6163a64361dc9b439c3f5dd50b4.setContent(html_024d3bd92d6ec13af51ea69cf8e3beff);
+            
+        
+
+        circle_marker_b87420e90a63caa1181da92432ba5b60.bindPopup(popup_8ebba6163a64361dc9b439c3f5dd50b4)
+        ;
+
+        
+    
+    
+            var poly_line_3524f274bfa56116f7c0de63142d7412 = L.polyline(
+                [[41.1026000976563, 29.0423583984375], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_c7dc458fe483f1d39423305c50d715e4 = L.circleMarker(
+                [41.1026000976563, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_65a2e3fd661865e650f70aab238aa80f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19de8b682123d75b834668fc1a44877f = $(`<div id="html_19de8b682123d75b834668fc1a44877f" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.1026, 29.0533)<br>Avg Speed: 27.5 km/h<br>Avg Vehicles/hr: 23</div>`)[0];
+                popup_65a2e3fd661865e650f70aab238aa80f.setContent(html_19de8b682123d75b834668fc1a44877f);
+            
+        
+
+        circle_marker_c7dc458fe483f1d39423305c50d715e4.bindPopup(popup_65a2e3fd661865e650f70aab238aa80f)
+        ;
+
+        
+    
+    
+            var poly_line_7787e8d5d66cfd0020d221f1899c6bae = L.polyline(
+                [[41.1026000976563, 29.0533447265625], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_cc8c2d587c0a5545c5b4b9e3c59bc2a9 = L.circleMarker(
+                [41.1026000976563, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_e8ec96e29a7c7faaf9e819bd9473fdb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee3427c770132fd0923772bf4b25e659 = $(`<div id="html_ee3427c770132fd0923772bf4b25e659" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.1026, 29.0643)<br>Avg Speed: 32.7 km/h<br>Avg Vehicles/hr: 12</div>`)[0];
+                popup_e8ec96e29a7c7faaf9e819bd9473fdb3.setContent(html_ee3427c770132fd0923772bf4b25e659);
+            
+        
+
+        circle_marker_cc8c2d587c0a5545c5b4b9e3c59bc2a9.bindPopup(popup_e8ec96e29a7c7faaf9e819bd9473fdb3)
+        ;
+
+        
+    
+    
+            var poly_line_ec2d01c437a55c7fe97695ade7baf6c5 = L.polyline(
+                [[41.1026000976563, 29.0643310546875], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_feaf210b90955db4135581e5043c3e0f = L.circleMarker(
+                [41.1026000976563, 29.0753173828125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_bc69f8137fd69efef607e5ab2080327f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b6f4d3bd700033b72043db89898efe2 = $(`<div id="html_7b6f4d3bd700033b72043db89898efe2" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.1026, 29.0753)<br>Avg Speed: 46.4 km/h<br>Avg Vehicles/hr: 3</div>`)[0];
+                popup_bc69f8137fd69efef607e5ab2080327f.setContent(html_7b6f4d3bd700033b72043db89898efe2);
+            
+        
+
+        circle_marker_feaf210b90955db4135581e5043c3e0f.bindPopup(popup_bc69f8137fd69efef607e5ab2080327f)
+        ;
+
+        
+    
+    
+            var poly_line_4f09c974d726f48c70f27dbcee9dc234 = L.polyline(
+                [[41.1026000976563, 29.0753173828125], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_98fe148d69a34311d2ca15751f1ee7f0 = L.circleMarker(
+                [41.1080932617188, 29.0313720703125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_efd6d0cbaeaae8559a37b6691ed9089b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63e0a2a63ad2c0a3bb6a349852889a20 = $(`<div id="html_63e0a2a63ad2c0a3bb6a349852889a20" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.1081, 29.0314)<br>Avg Speed: 39.4 km/h<br>Avg Vehicles/hr: 83</div>`)[0];
+                popup_efd6d0cbaeaae8559a37b6691ed9089b.setContent(html_63e0a2a63ad2c0a3bb6a349852889a20);
+            
+        
+
+        circle_marker_98fe148d69a34311d2ca15751f1ee7f0.bindPopup(popup_efd6d0cbaeaae8559a37b6691ed9089b)
+        ;
+
+        
+    
+    
+            var poly_line_4d61b2dc2079f091d051048426e8880b = L.polyline(
+                [[41.1080932617188, 29.0313720703125], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_79cc5e808f4baccf252bc32587dc6ec3 = L.circleMarker(
+                [41.1080932617188, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_c27235f66668aacbfbe1e867f86f1e83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7e75440914cf0a819f85e23a0c44532 = $(`<div id="html_e7e75440914cf0a819f85e23a0c44532" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.1081, 29.0533)<br>Avg Speed: 33.7 km/h<br>Avg Vehicles/hr: 35</div>`)[0];
+                popup_c27235f66668aacbfbe1e867f86f1e83.setContent(html_e7e75440914cf0a819f85e23a0c44532);
+            
+        
+
+        circle_marker_79cc5e808f4baccf252bc32587dc6ec3.bindPopup(popup_c27235f66668aacbfbe1e867f86f1e83)
+        ;
+
+        
+    
+    
+            var poly_line_03766a8d74e7550a8ef455d79ffdb873 = L.polyline(
+                [[41.1080932617188, 29.0533447265625], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_adbf93751833af676234dd5edde82eec = L.circleMarker(
+                [41.1080932617188, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_a62a8835de809a39f68a7d495a1fa820 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a8a93b10f72ee4cd5e2470b1d80c85c = $(`<div id="html_5a8a93b10f72ee4cd5e2470b1d80c85c" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.1081, 29.0643)<br>Avg Speed: 31.4 km/h<br>Avg Vehicles/hr: 8</div>`)[0];
+                popup_a62a8835de809a39f68a7d495a1fa820.setContent(html_5a8a93b10f72ee4cd5e2470b1d80c85c);
+            
+        
+
+        circle_marker_adbf93751833af676234dd5edde82eec.bindPopup(popup_a62a8835de809a39f68a7d495a1fa820)
+        ;
+
+        
+    
+    
+            var poly_line_22d2aed211af1554cd19e2d47ed99b00 = L.polyline(
+                [[41.1080932617188, 29.0643310546875], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_2ad17be2ecb73712362e43110147be48 = L.circleMarker(
+                [41.1080932617188, 29.0753173828125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_83d227f69e91dc3e23aac36377d20b46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d2261503052beff800087279f037295 = $(`<div id="html_8d2261503052beff800087279f037295" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.1081, 29.0753)<br>Avg Speed: 37.7 km/h<br>Avg Vehicles/hr: 13</div>`)[0];
+                popup_83d227f69e91dc3e23aac36377d20b46.setContent(html_8d2261503052beff800087279f037295);
+            
+        
+
+        circle_marker_2ad17be2ecb73712362e43110147be48.bindPopup(popup_83d227f69e91dc3e23aac36377d20b46)
+        ;
+
+        
+    
+    
+            var poly_line_8343e600c49c40741bd3327a094d00c8 = L.polyline(
+                [[41.1080932617188, 29.0753173828125], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_96ca1043b354cce9d94af10162be5e60 = L.circleMarker(
+                [41.1135864257813, 29.0423583984375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_f81bd71e339152c21e0507149eebbc96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ddca636dd868bf9e7c0c051e26c0bad = $(`<div id="html_0ddca636dd868bf9e7c0c051e26c0bad" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.1136, 29.0424)<br>Avg Speed: 39.1 km/h<br>Avg Vehicles/hr: 50</div>`)[0];
+                popup_f81bd71e339152c21e0507149eebbc96.setContent(html_0ddca636dd868bf9e7c0c051e26c0bad);
+            
+        
+
+        circle_marker_96ca1043b354cce9d94af10162be5e60.bindPopup(popup_f81bd71e339152c21e0507149eebbc96)
+        ;
+
+        
+    
+    
+            var poly_line_605e935e0fe295ea6c03c7d3cedc5cea = L.polyline(
+                [[41.1135864257813, 29.0423583984375], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_9a9e3c74136751550ac3fccdabed5ef0 = L.circleMarker(
+                [41.1135864257813, 29.0533447265625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_e8d733645a2b6b33f0979ca6ae3aab30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc684445df44f51e7b8b1906433f9864 = $(`<div id="html_bc684445df44f51e7b8b1906433f9864" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.1136, 29.0533)<br>Avg Speed: 25.9 km/h<br>Avg Vehicles/hr: 51</div>`)[0];
+                popup_e8d733645a2b6b33f0979ca6ae3aab30.setContent(html_bc684445df44f51e7b8b1906433f9864);
+            
+        
+
+        circle_marker_9a9e3c74136751550ac3fccdabed5ef0.bindPopup(popup_e8d733645a2b6b33f0979ca6ae3aab30)
+        ;
+
+        
+    
+    
+            var poly_line_f0c208db64d569f5df838a494eeff561 = L.polyline(
+                [[41.1135864257813, 29.0533447265625], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_e56d5d62d65edab6330e2746c91b3a48 = L.circleMarker(
+                [41.1135864257813, 29.0643310546875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_88f3d5135747fe157bf50588341a6767 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6173d092202aabca7cc6b3086805a84e = $(`<div id="html_6173d092202aabca7cc6b3086805a84e" style="width: 100.0%; height: 100.0%;">Sensor near FSM<br>Coordinates: (41.1136, 29.0643)<br>Avg Speed: 30.2 km/h<br>Avg Vehicles/hr: 17</div>`)[0];
+                popup_88f3d5135747fe157bf50588341a6767.setContent(html_6173d092202aabca7cc6b3086805a84e);
+            
+        
+
+        circle_marker_e56d5d62d65edab6330e2746c91b3a48.bindPopup(popup_88f3d5135747fe157bf50588341a6767)
+        ;
+
+        
+    
+    
+            var poly_line_4e9d81edf8db20eee61136952d2f97f5 = L.polyline(
+                [[41.1135864257813, 29.0643310546875], [41.09, 29.056]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_7343203dad38361ac92ff40c11889156 = L.circleMarker(
+                [41.1959838867188, 29.1192626953125],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_baa972c6613781e9fc61dd7d885b6454 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_354d2e8065694ee073ad5f62377e55e6 = $(`<div id="html_354d2e8065694ee073ad5f62377e55e6" style="width: 100.0%; height: 100.0%;">Sensor near Yavuz Sultan Selim<br>Coordinates: (41.1960, 29.1193)<br>Avg Speed: 95.6 km/h<br>Avg Vehicles/hr: 69</div>`)[0];
+                popup_baa972c6613781e9fc61dd7d885b6454.setContent(html_354d2e8065694ee073ad5f62377e55e6);
+            
+        
+
+        circle_marker_7343203dad38361ac92ff40c11889156.bindPopup(popup_baa972c6613781e9fc61dd7d885b6454)
+        ;
+
+        
+    
+    
+            var poly_line_6ece028f51d7d78a4d433063906afd91 = L.polyline(
+                [[41.1959838867188, 29.1192626953125], [41.205, 29.11]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_70574f339cde830531ef891b72e6cd2d = L.circleMarker(
+                [41.1959838867188, 29.1302490234375],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_2bf8c2ea7dc25a82ea17e71e0d1acf60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fcafa230c7dca38d0bebfe6da42ac08 = $(`<div id="html_4fcafa230c7dca38d0bebfe6da42ac08" style="width: 100.0%; height: 100.0%;">Sensor near Yavuz Sultan Selim<br>Coordinates: (41.1960, 29.1302)<br>Avg Speed: 99.5 km/h<br>Avg Vehicles/hr: 20</div>`)[0];
+                popup_2bf8c2ea7dc25a82ea17e71e0d1acf60.setContent(html_4fcafa230c7dca38d0bebfe6da42ac08);
+            
+        
+
+        circle_marker_70574f339cde830531ef891b72e6cd2d.bindPopup(popup_2bf8c2ea7dc25a82ea17e71e0d1acf60)
+        ;
+
+        
+    
+    
+            var poly_line_349e2fb64dcd8bbf127802ad951a7e95 = L.polyline(
+                [[41.1959838867188, 29.1302490234375], [41.205, 29.11]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_579649e5dff60f5ce520d7c0e733f68b = L.circleMarker(
+                [41.1959838867188, 29.1412353515625],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_ff82b5e76ffe7972e0aaea1d223ee823 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd9c68cdede96164bef25a9ce7b5fd56 = $(`<div id="html_bd9c68cdede96164bef25a9ce7b5fd56" style="width: 100.0%; height: 100.0%;">Sensor near Yavuz Sultan Selim<br>Coordinates: (41.1960, 29.1412)<br>Avg Speed: 93.4 km/h<br>Avg Vehicles/hr: 187</div>`)[0];
+                popup_ff82b5e76ffe7972e0aaea1d223ee823.setContent(html_bd9c68cdede96164bef25a9ce7b5fd56);
+            
+        
+
+        circle_marker_579649e5dff60f5ce520d7c0e733f68b.bindPopup(popup_ff82b5e76ffe7972e0aaea1d223ee823)
+        ;
+
+        
+    
+    
+            var poly_line_ac844a96899bd77314d96564a4ec6fe3 = L.polyline(
+                [[41.1959838867188, 29.1412353515625], [41.205, 29.11]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_34461d7fca4d447c9c5348abf714eccb = L.circleMarker(
+                [41.2014770507813, 29.1082763671875],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_5c5643a163fef574f7e1bc897a5e8125 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bb18896227b4b71e5139bef829cfa2f = $(`<div id="html_7bb18896227b4b71e5139bef829cfa2f" style="width: 100.0%; height: 100.0%;">Sensor near Yavuz Sultan Selim<br>Coordinates: (41.2015, 29.1083)<br>Avg Speed: 93.1 km/h<br>Avg Vehicles/hr: 135</div>`)[0];
+                popup_5c5643a163fef574f7e1bc897a5e8125.setContent(html_7bb18896227b4b71e5139bef829cfa2f);
+            
+        
+
+        circle_marker_34461d7fca4d447c9c5348abf714eccb.bindPopup(popup_5c5643a163fef574f7e1bc897a5e8125)
+        ;
+
+        
+    
+    
+            var poly_line_466b4e0628e4f27316ec0c019c3c40b7 = L.polyline(
+                [[41.2014770507813, 29.1082763671875], [41.205, 29.11]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_33266813e5e364aa831cb0a84fd71183 = L.circleMarker(
+                [41.2014770507813, 29.1192626953125],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_c1950b5334974090754415f4ab39e246 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_baf3dad1b35d9dfbb1f8b2fa60170353 = $(`<div id="html_baf3dad1b35d9dfbb1f8b2fa60170353" style="width: 100.0%; height: 100.0%;">Sensor near Yavuz Sultan Selim<br>Coordinates: (41.2015, 29.1193)<br>Avg Speed: 92.7 km/h<br>Avg Vehicles/hr: 185</div>`)[0];
+                popup_c1950b5334974090754415f4ab39e246.setContent(html_baf3dad1b35d9dfbb1f8b2fa60170353);
+            
+        
+
+        circle_marker_33266813e5e364aa831cb0a84fd71183.bindPopup(popup_c1950b5334974090754415f4ab39e246)
+        ;
+
+        
+    
+    
+            var poly_line_d5418600875de6bf8b0cd0c9490aa607 = L.polyline(
+                [[41.2014770507813, 29.1192626953125], [41.205, 29.11]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_34356d5374b30f470e1c6d9dc0a27040 = L.circleMarker(
+                [41.2069702148438, 29.0972900390625],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_10ce3bd51abf828acc62ab3d0911b97c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b552e604332cfb09001dd20e43346007 = $(`<div id="html_b552e604332cfb09001dd20e43346007" style="width: 100.0%; height: 100.0%;">Sensor near Yavuz Sultan Selim<br>Coordinates: (41.2070, 29.0973)<br>Avg Speed: 96.3 km/h<br>Avg Vehicles/hr: 121</div>`)[0];
+                popup_10ce3bd51abf828acc62ab3d0911b97c.setContent(html_b552e604332cfb09001dd20e43346007);
+            
+        
+
+        circle_marker_34356d5374b30f470e1c6d9dc0a27040.bindPopup(popup_10ce3bd51abf828acc62ab3d0911b97c)
+        ;
+
+        
+    
+    
+            var poly_line_77295138f3d83091fcac4f121b91f73e = L.polyline(
+                [[41.2069702148438, 29.0972900390625], [41.205, 29.11]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_11ce3f1346da91930ed33127bee317a5 = L.circleMarker(
+                [41.2069702148438, 29.1082763671875],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_1d1c612011e45fe10bd2ae451ae93f23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53b43d50833bfb5c493b45d25a3ca7d5 = $(`<div id="html_53b43d50833bfb5c493b45d25a3ca7d5" style="width: 100.0%; height: 100.0%;">Sensor near Yavuz Sultan Selim<br>Coordinates: (41.2070, 29.1083)<br>Avg Speed: 93.3 km/h<br>Avg Vehicles/hr: 145</div>`)[0];
+                popup_1d1c612011e45fe10bd2ae451ae93f23.setContent(html_53b43d50833bfb5c493b45d25a3ca7d5);
+            
+        
+
+        circle_marker_11ce3f1346da91930ed33127bee317a5.bindPopup(popup_1d1c612011e45fe10bd2ae451ae93f23)
+        ;
+
+        
+    
+    
+            var poly_line_e06a7a36cff59a86718567e07653a326 = L.polyline(
+                [[41.2069702148438, 29.1082763671875], [41.205, 29.11]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_b32b8fe08cbb030204c501c7bcd2d4d8 = L.circleMarker(
+                [41.2124633789063, 29.0863037109375],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_e11c4c8c9016a6557de70a084a383e1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04a113df84921896daeaaa4920293365 = $(`<div id="html_04a113df84921896daeaaa4920293365" style="width: 100.0%; height: 100.0%;">Sensor near Yavuz Sultan Selim<br>Coordinates: (41.2125, 29.0863)<br>Avg Speed: 105.7 km/h<br>Avg Vehicles/hr: 31</div>`)[0];
+                popup_e11c4c8c9016a6557de70a084a383e1a.setContent(html_04a113df84921896daeaaa4920293365);
+            
+        
+
+        circle_marker_b32b8fe08cbb030204c501c7bcd2d4d8.bindPopup(popup_e11c4c8c9016a6557de70a084a383e1a)
+        ;
+
+        
+    
+    
+            var poly_line_98798a0fecdc5e5ecfe756532c56c66d = L.polyline(
+                [[41.2124633789063, 29.0863037109375], [41.205, 29.11]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_28ea8b095e8363983980bc92a770473a = L.circleMarker(
+                [41.2124633789063, 29.0972900390625],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_d225f024b168382bb407aabbd5e2ae29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7efc47713b9e628908bf19917b93a3b2 = $(`<div id="html_7efc47713b9e628908bf19917b93a3b2" style="width: 100.0%; height: 100.0%;">Sensor near Yavuz Sultan Selim<br>Coordinates: (41.2125, 29.0973)<br>Avg Speed: 101.5 km/h<br>Avg Vehicles/hr: 79</div>`)[0];
+                popup_d225f024b168382bb407aabbd5e2ae29.setContent(html_7efc47713b9e628908bf19917b93a3b2);
+            
+        
+
+        circle_marker_28ea8b095e8363983980bc92a770473a.bindPopup(popup_d225f024b168382bb407aabbd5e2ae29)
+        ;
+
+        
+    
+    
+            var poly_line_4f7d474f18e0a73b3aef5c31b6cbbf25 = L.polyline(
+                [[41.2124633789063, 29.0972900390625], [41.205, 29.11]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_8c6869d299b4ce6fcd7de12b5b51ea87 = L.circleMarker(
+                [41.2179565429688, 29.0863037109375],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_f97d5359fcabbe9fcb2eb44fe7929d85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_973fba36a83371b3a8ed603273f02e96 = $(`<div id="html_973fba36a83371b3a8ed603273f02e96" style="width: 100.0%; height: 100.0%;">Sensor near Yavuz Sultan Selim<br>Coordinates: (41.2180, 29.0863)<br>Avg Speed: 94.3 km/h<br>Avg Vehicles/hr: 186</div>`)[0];
+                popup_f97d5359fcabbe9fcb2eb44fe7929d85.setContent(html_973fba36a83371b3a8ed603273f02e96);
+            
+        
+
+        circle_marker_8c6869d299b4ce6fcd7de12b5b51ea87.bindPopup(popup_f97d5359fcabbe9fcb2eb44fe7929d85)
+        ;
+
+        
+    
+    
+            var poly_line_575796834834e231c18d18994301289c = L.polyline(
+                [[41.2179565429688, 29.0863037109375], [41.205, 29.11]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+            var circle_marker_e5987d7a8f45cc672d5c72dc88bda25b = L.circleMarker(
+                [41.2234497070313, 29.0863037109375],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+    
+        var popup_c832960c0618d784261ef6188023b6c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94f8160d3f7ba1b7fe1035d6b427936a = $(`<div id="html_94f8160d3f7ba1b7fe1035d6b427936a" style="width: 100.0%; height: 100.0%;">Sensor near Yavuz Sultan Selim<br>Coordinates: (41.2234, 29.0863)<br>Avg Speed: 94.0 km/h<br>Avg Vehicles/hr: 47</div>`)[0];
+                popup_c832960c0618d784261ef6188023b6c9.setContent(html_94f8160d3f7ba1b7fe1035d6b427936a);
+            
+        
+
+        circle_marker_e5987d7a8f45cc672d5c72dc88bda25b.bindPopup(popup_c832960c0618d784261ef6188023b6c9)
+        ;
+
+        
+    
+    
+            var poly_line_47709a2202a48e6ec5f1273cc21c3990 = L.polyline(
+                [[41.2234497070313, 29.0863037109375], [41.205, 29.11]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0da1c3a4cb8f65fb7f18cc3089e7645b);
+        
+</script>
+</html>
