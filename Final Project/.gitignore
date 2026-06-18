@@ -1,0 +1,10 @@
+.env
+data/raw/*.csv
+data/raw/gdelt_cache/
+data/raw/gdelt_cache_v2/
+data/raw/*.zip
+data/processed/*.csv
+data/database/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

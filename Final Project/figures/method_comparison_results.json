@@ -1,0 +1,99 @@
+{
+  "n_rows": 250000,
+  "m1_positive_rate": 0.923592,
+  "m2_positive_rate": 0.308204,
+  "agreement": 0.358604,
+  "cohen_kappa": 0.031835369302706584,
+  "confusion": {
+    "both0": 15851,
+    "m2_only": 3251,
+    "m1_only": 157098,
+    "both1": 73800
+  },
+  "per_region": [
+    {
+      "region": "Gaza_Israel_Lebanon",
+      "n": 3306,
+      "method1": 1.0,
+      "method2": 0.589
+    },
+    {
+      "region": "Persian_Gulf_Iraq_Iran",
+      "n": 75288,
+      "method1": 0.895,
+      "method2": 0.342
+    },
+    {
+      "region": "Red_Sea_Yemen",
+      "n": 96444,
+      "method1": 0.884,
+      "method2": 0.05
+    },
+    {
+      "region": "Ukraine_Black_Sea",
+      "n": 74962,
+      "method1": 1.0,
+      "method2": 0.595
+    }
+  ],
+  "models_method1": {
+    "Logistic Regression": {
+      "auc": 0.7444006834172678,
+      "recall": 0.8595279341706367,
+      "precision": 0.9399464822752137,
+      "f1": 0.8979402549514189,
+      "accuracy": 0.81954
+    },
+    "Decision Tree": {
+      "auc": 0.9548693622043495,
+      "recall": 0.90450411433521,
+      "precision": 0.9891072697134738,
+      "f1": 0.9449157335143084,
+      "accuracy": 0.9026
+    },
+    "Naive Bayes": {
+      "auc": 0.7256909084415865,
+      "recall": 1.0,
+      "precision": 0.9236,
+      "f1": 0.9602828030775629,
+      "accuracy": 0.9236
+    },
+    "SVM Linear": {
+      "auc": 0.7487702287203045,
+      "recall": 1.0,
+      "precision": 0.9236,
+      "f1": 0.9602828030775629,
+      "accuracy": 0.9236
+    }
+  },
+  "models_method2": {
+    "Logistic Regression": {
+      "auc": 0.8240942877902805,
+      "recall": 0.93595068137573,
+      "precision": 0.4734285245363532,
+      "f1": 0.6287956403269754,
+      "accuracy": 0.65942
+    },
+    "Decision Tree": {
+      "auc": 0.9745226064331234,
+      "recall": 0.9750162232316677,
+      "precision": 0.7265122576277743,
+      "f1": 0.8326175500817379,
+      "accuracy": 0.87918
+    },
+    "Naive Bayes": {
+      "auc": 0.8114065612208199,
+      "recall": 0.7383517196625567,
+      "precision": 0.5622097045162565,
+      "f1": 0.6383527827648114,
+      "accuracy": 0.74216
+    },
+    "SVM Linear": {
+      "auc": 0.8233604667938259,
+      "recall": 0.8849448410123296,
+      "precision": 0.5354983114741224,
+      "f1": 0.6672374987767883,
+      "accuracy": 0.72796
+    }
+  }
+}

@@ -1,0 +1,15 @@
+pandas
+numpy
+requests
+python-dotenv
+matplotlib
+seaborn
+scikit-learn
+scipy
+sqlalchemy
+psycopg2-binary
+folium
+geopandas
+shapely
+jupyter
+nbconvert

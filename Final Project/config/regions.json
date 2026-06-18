@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Ukraine_Black_Sea",
+    "description": "Ukraine and Black Sea corridor, relevant to grain exports, energy routes, and ongoing war activity.",
+    "bbox": [25.5, 38.5, 44.0, 54.5],
+    "news_terms": ["Ukraine", "Black Sea", "Crimea", "Odesa", "Kyiv"]
+  },
+  {
+    "name": "Red_Sea_Yemen",
+    "description": "Red Sea, Bab el-Mandeb, and Yemen area, relevant to maritime attacks and Suez-linked shipping disruption.",
+    "bbox": [30.5, 8.5, 47.0, 25.0],
+    "news_terms": ["Yemen", "Red Sea", "Houthi", "Bab el-Mandeb", "Sanaa"]
+  },
+  {
+    "name": "Gaza_Israel_Lebanon",
+    "description": "Eastern Mediterranean conflict area including Gaza, Israel, Lebanon, and nearby maritime approaches.",
+    "bbox": [31.5, 27.5, 39.0, 36.5],
+    "news_terms": ["Gaza", "Israel", "Lebanon", "Hezbollah", "Hamas"]
+  },
+  {
+    "name": "Persian_Gulf_Iraq_Iran",
+    "description": "Persian Gulf, Iraq, and Iran area, relevant to oil exports, Strait of Hormuz risk, and regional conflict.",
+    "bbox": [36.5, 21.5, 61.5, 39.5],
+    "news_terms": ["Iraq", "Iran", "Persian Gulf", "Strait of Hormuz", "Basra"]
+  },
+  {
+    "name": "Sudan_Red_Sea_Corridor",
+    "description": "Sudan and Red Sea corridor, relevant to civil conflict and nearby shipping routes.",
+    "bbox": [20.0, 6.5, 40.0, 25.0],
+    "news_terms": ["Sudan", "Khartoum", "Port Sudan", "Darfur", "RSF"]
+  },
+  {
+    "name": "Libya_Mediterranean",
+    "description": "Libya and central Mediterranean energy corridor, relevant to oil infrastructure and regional instability.",
+    "bbox": [7.5, 17.5, 27.5, 35.5],
+    "news_terms": ["Libya", "Tripoli", "Benghazi", "Sirte", "Mediterranean"]
+  }
+]
